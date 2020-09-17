@@ -33,14 +33,14 @@ print(projects_df)
 
 # testing the retrieval of list of datasets (associated with given project) from Synapse
 # synapse ID for the "HTAN CenterA" project
-datasets_list = syn_store.getStorageDatasetsInProject(projectId="syn20977135")
+datasets_list = syn_store.getStorageDatasetsInProject(projectId="syn12051335")
 print("Testing retrieval of dataset list within a given storage project from Synapse...")
 datasets_df = pd.DataFrame(datasets_list, columns=["Synapse ID", "Dataset Name"])
 print(datasets_df)
 
 # testing the retrieval of list of files (associated with given dataset) from Synapse
 # synapse ID of the "HTAN_CenterA_BulkRNAseq_AlignmentDataset_1" dataset
-files_list = syn_store.getFilesInStorageDataset(datasetId="syn22125525")
+files_list = syn_store.getFilesInStorageDataset(datasetId="syn12087410")
 print("Testing retrieval of file list within a given storage dataset from Synapse")
 files_df = pd.DataFrame(files_list, columns=["Synapse ID", "File Name"])
 print(files_df)
@@ -49,7 +49,7 @@ print(files_df)
 # synapse ID of "HTAN_CenterA_FamilyHistory" dataset and associating with it a validated manifest
 MANIFEST_LOC = os.path.join(DATA_PATH, '', config_data["synapse"]["manifest_filename"])
 print("Testing association of entities with annotation from manifest...")
-manifest_syn_id = syn_store.associateMetadataWithFiles(MANIFEST_LOC, "syn21984120")
+manifest_syn_id = syn_store.associateMetadataWithFiles(MANIFEST_LOC, "")
 print(manifest_syn_id)
 
 # testing the successful retreival of all manifests associated with a project, accessible by the current user
