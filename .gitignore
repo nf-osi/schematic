@@ -4,4 +4,4 @@ token.pickle
 .DS_Store
 **/__pycache__
 .synapseConfig
-
+schematic.egg-info/**
