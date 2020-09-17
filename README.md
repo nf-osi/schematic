@@ -24,7 +24,7 @@ Install the package/bundle/application:
 
 To verify that the package has been installed (as a `pip` package), check here:
 
-      pip[3] list
+      pip list
 
 Now, your environment is ready to test the modules within the application.
 
@@ -48,7 +48,7 @@ For `quickstart-1560359685924-198a7114b6b5.json` file:
 
 Find the synapse configuration file (_`.synapseConfig`_) downloaded to the current source directory. Access it like this:
 
-      vi[m] .synapseConfig
+      vi .synapseConfig
 
 Open the config file, and under the authentication section, replace _< username >_ and _< apikey >_ with your Synapse username and API key.
 
