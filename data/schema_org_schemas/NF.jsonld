@@ -1973,241 +1973,6 @@
             }
         },
         {
-            "@id": "bts:Assay",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The technology used to generate the data in this file",
-            "rdfs:label": "Assay",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ExperimentalData"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Elevatedplusmazetest"
-                },
-                {
-                    "@id": "bts:Openfieldtest"
-                },
-                {
-                    "@id": "bts:Rotarodperformancetest"
-                },
-                {
-                    "@id": "bts:MRNAcounts"
-                },
-                {
-                    "@id": "bts:Highcontentscreen"
-                },
-                {
-                    "@id": "bts:Immunocytochemistry"
-                },
-                {
-                    "@id": "bts:Immunofluorescence"
-                },
-                {
-                    "@id": "bts:Autoradiography"
-                },
-                {
-                    "@id": "bts:Electrochemiluminescence"
-                },
-                {
-                    "@id": "bts:RealTimePCR"
-                },
-                {
-                    "@id": "bts:VernierCaliper"
-                },
-                {
-                    "@id": "bts:Scale"
-                },
-                {
-                    "@id": "bts:BloodChemistryMeasurement"
-                },
-                {
-                    "@id": "bts:Invivobioluminescence"
-                },
-                {
-                    "@id": "bts:Immunohistochemistry"
-                },
-                {
-                    "@id": "bts:NOMe-Seq"
-                },
-                {
-                    "@id": "bts:FIA-MSMS"
-                },
-                {
-                    "@id": "bts:UPLC-MSMS"
-                },
-                {
-                    "@id": "bts:HPLC-MSMS"
-                },
-                {
-                    "@id": "bts:Liquidchromatography-electrochemicaldetection"
-                },
-                {
-                    "@id": "bts:RnaSeq"
-                },
-                {
-                    "@id": "bts:MirnaSeq"
-                },
-                {
-                    "@id": "bts:LC-MSMS"
-                },
-                {
-                    "@id": "bts:LC-MS"
-                },
-                {
-                    "@id": "bts:LncrnaSeq"
-                },
-                {
-                    "@id": "bts:ExomeSeq"
-                },
-                {
-                    "@id": "bts:Sangersequencing"
-                },
-                {
-                    "@id": "bts:ChIPSeq"
-                },
-                {
-                    "@id": "bts:RnaArray"
-                },
-                {
-                    "@id": "bts:SnpArray"
-                },
-                {
-                    "@id": "bts:MethylationArray"
-                },
-                {
-                    "@id": "bts:MirnaArray"
-                },
-                {
-                    "@id": "bts:BisulfiteSeq"
-                },
-                {
-                    "@id": "bts:ATACSeq"
-                },
-                {
-                    "@id": "bts:HI-C"
-                },
-                {
-                    "@id": "bts:ErrBisulfiteSeq"
-                },
-                {
-                    "@id": "bts:ISOSeq"
-                },
-                {
-                    "@id": "bts:MRI"
-                },
-                {
-                    "@id": "bts:WesternBlot"
-                },
-                {
-                    "@id": "bts:WholeGenomeSeq"
-                },
-                {
-                    "@id": "bts:PolymeraseChainReaction"
-                },
-                {
-                    "@id": "bts:CellViabilityAssay"
-                },
-                {
-                    "@id": "bts:AtomicForceMicroscopy"
-                },
-                {
-                    "@id": "bts:BrightfieldMicroscopy"
-                },
-                {
-                    "@id": "bts:TractionForceMicroscopy"
-                },
-                {
-                    "@id": "bts:NextGenerationTargetedSequencing"
-                },
-                {
-                    "@id": "bts:JumpingLibrary"
-                },
-                {
-                    "@id": "bts:MIB/MS"
-                },
-                {
-                    "@id": "bts:ScCGIseq"
-                },
-                {
-                    "@id": "bts:MudPIT"
-                },
-                {
-                    "@id": "bts:Questionnaire"
-                },
-                {
-                    "@id": "bts:DNAopticalmapping"
-                },
-                {
-                    "@id": "bts:Noveltyresponsebehavior"
-                },
-                {
-                    "@id": "bts:Activeavoidancelearningbehavior"
-                },
-                {
-                    "@id": "bts:Contextualconditioningbehavior"
-                },
-                {
-                    "@id": "bts:Anxiety-relatedbehavior"
-                },
-                {
-                    "@id": "bts:Memorybehavior"
-                },
-                {
-                    "@id": "bts:Kinestheticbehavior"
-                },
-                {
-                    "@id": "bts:Locomotoractivationbehavior"
-                },
-                {
-                    "@id": "bts:OxBS-Seq"
-                },
-                {
-                    "@id": "bts:Ribo-Seq"
-                },
-                {
-                    "@id": "bts:PositronEmissionTomography"
-                },
-                {
-                    "@id": "bts:RPPA"
-                },
-                {
-                    "@id": "bts:ELISA"
-                },
-                {
-                    "@id": "bts:LTP"
-                },
-                {
-                    "@id": "bts:LFP"
-                },
-                {
-                    "@id": "bts:Whole-cellpatchclamp"
-                },
-                {
-                    "@id": "bts:SandwichELISA"
-                },
-                {
-                    "@id": "bts:LaserSpeckleImaging"
-                },
-                {
-                    "@id": "bts:Genotyping"
-                },
-                {
-                    "@id": "bts:TMTquantitation"
-                },
-                {
-                    "@id": "bts:Labelfreemassspectrometry"
-                }
-            ],
-            "sms:displayName": "assay",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Photograph",
             "@type": "rdfs:Class",
             "rdfs:comment": "An image recorded by a camera.",
@@ -3760,8 +3525,226 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Elevatedplusmazetest"
+                },
+                {
+                    "@id": "bts:Openfieldtest"
+                },
+                {
+                    "@id": "bts:Rotarodperformancetest"
+                },
+                {
+                    "@id": "bts:MRNAcounts"
+                },
+                {
+                    "@id": "bts:Highcontentscreen"
+                },
+                {
+                    "@id": "bts:Immunocytochemistry"
+                },
+                {
+                    "@id": "bts:Immunofluorescence"
+                },
+                {
+                    "@id": "bts:Autoradiography"
+                },
+                {
+                    "@id": "bts:Electrochemiluminescence"
+                },
+                {
+                    "@id": "bts:RealTimePCR"
+                },
+                {
+                    "@id": "bts:VernierCaliper"
+                },
+                {
+                    "@id": "bts:Scale"
+                },
+                {
+                    "@id": "bts:BloodChemistryMeasurement"
+                },
+                {
+                    "@id": "bts:Invivobioluminescence"
+                },
+                {
+                    "@id": "bts:Immunohistochemistry"
+                },
+                {
+                    "@id": "bts:NOMe-Seq"
+                },
+                {
+                    "@id": "bts:FIA-MSMS"
+                },
+                {
+                    "@id": "bts:UPLC-MSMS"
+                },
+                {
+                    "@id": "bts:HPLC-MSMS"
+                },
+                {
+                    "@id": "bts:Liquidchromatography-electrochemicaldetection"
+                },
+                {
+                    "@id": "bts:RnaSeq"
+                },
+                {
+                    "@id": "bts:MirnaSeq"
+                },
+                {
+                    "@id": "bts:LC-MSMS"
+                },
+                {
+                    "@id": "bts:LC-MS"
+                },
+                {
+                    "@id": "bts:LncrnaSeq"
+                },
+                {
+                    "@id": "bts:ExomeSeq"
+                },
+                {
+                    "@id": "bts:Sangersequencing"
+                },
+                {
+                    "@id": "bts:ChIPSeq"
+                },
+                {
+                    "@id": "bts:RnaArray"
+                },
+                {
+                    "@id": "bts:SnpArray"
+                },
+                {
+                    "@id": "bts:MethylationArray"
+                },
+                {
+                    "@id": "bts:MirnaArray"
+                },
+                {
+                    "@id": "bts:BisulfiteSeq"
+                },
+                {
+                    "@id": "bts:ATACSeq"
+                },
+                {
+                    "@id": "bts:HI-C"
+                },
+                {
+                    "@id": "bts:ErrBisulfiteSeq"
+                },
+                {
+                    "@id": "bts:ISOSeq"
+                },
+                {
+                    "@id": "bts:MRI"
+                },
+                {
+                    "@id": "bts:WesternBlot"
+                },
+                {
+                    "@id": "bts:WholeGenomeSeq"
+                },
+                {
+                    "@id": "bts:PolymeraseChainReaction"
+                },
+                {
+                    "@id": "bts:CellViabilityAssay"
+                },
+                {
+                    "@id": "bts:AtomicForceMicroscopy"
+                },
+                {
+                    "@id": "bts:BrightfieldMicroscopy"
+                },
+                {
+                    "@id": "bts:TractionForceMicroscopy"
+                },
+                {
+                    "@id": "bts:NextGenerationTargetedSequencing"
+                },
+                {
+                    "@id": "bts:JumpingLibrary"
+                },
+                {
+                    "@id": "bts:MIB/MS"
+                },
+                {
+                    "@id": "bts:ScCGIseq"
+                },
+                {
+                    "@id": "bts:MudPIT"
+                },
+                {
+                    "@id": "bts:Questionnaire"
+                },
+                {
+                    "@id": "bts:DNAopticalmapping"
+                },
+                {
+                    "@id": "bts:Noveltyresponsebehavior"
+                },
+                {
+                    "@id": "bts:Activeavoidancelearningbehavior"
+                },
+                {
+                    "@id": "bts:Contextualconditioningbehavior"
+                },
+                {
+                    "@id": "bts:Anxiety-relatedbehavior"
+                },
+                {
+                    "@id": "bts:Memorybehavior"
+                },
+                {
+                    "@id": "bts:Kinestheticbehavior"
+                },
+                {
+                    "@id": "bts:Locomotoractivationbehavior"
+                },
+                {
+                    "@id": "bts:OxBS-Seq"
+                },
+                {
+                    "@id": "bts:Ribo-Seq"
+                },
+                {
+                    "@id": "bts:PositronEmissionTomography"
+                },
+                {
+                    "@id": "bts:RPPA"
+                },
+                {
+                    "@id": "bts:ELISA"
+                },
+                {
+                    "@id": "bts:LTP"
+                },
+                {
+                    "@id": "bts:LFP"
+                },
+                {
+                    "@id": "bts:Whole-cellpatchclamp"
+                },
+                {
+                    "@id": "bts:SandwichELISA"
+                },
+                {
+                    "@id": "bts:LaserSpeckleImaging"
+                },
+                {
+                    "@id": "bts:Genotyping"
+                },
+                {
+                    "@id": "bts:TMTquantitation"
+                },
+                {
+                    "@id": "bts:Labelfreemassspectrometry"
+                }
+            ],
             "sms:displayName": "assay",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -14242,7 +14225,7 @@
             "rdfs:label": "GenomicsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "schema:Thing"
+                    "@id": "bts:SageCommunity"
                 }
             ],
             "schema:isPartOf": {
@@ -14250,6 +14233,49 @@
             },
             "sms:displayName": "genomicsAssay",
             "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:StudyId"
+                },
+                {
+                    "@id": "bts:StudyName"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:FundingAgency"
+                },
+                {
+                    "@id": "bts:Consortium"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:IndividualId"
+                },
+                {
+                    "@id": "bts:SpecimenId"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ImagingAssay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "nameAn assay of imaging type (rnaseq, exomeseq, etc). ",
+            "rdfs:label": "ImagingAssay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "imagingAssay",
+            "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
                     "@id": "bts:FileFormat"
@@ -14265,38 +14291,25 @@
                 },
                 {
                     "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
-                },
-                {
-                    "@id": "bts:ExperimentalData"
-                },
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
                 }
             ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Filename",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Filename",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "filename",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -18121,6 +18134,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Neurofibromatosis Therapeutic Consortium - University of California San Franciso",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IndividualId",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IndividualId",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GenomicsAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "individualId",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpecimenId",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SpecimenId",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GenomicsAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "specimenId",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
