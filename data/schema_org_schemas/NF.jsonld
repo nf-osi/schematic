@@ -14235,6 +14235,12 @@
             "sms:required": "sms:true",
             "sms:requiresDependency": [
                 {
+                    "@id": "bts:FileName"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
                     "@id": "bts:StudyId"
                 },
                 {
@@ -14250,9 +14256,6 @@
                     "@id": "bts:Consortium"
                 },
                 {
-                    "@id": "bts:FileFormat"
-                },
-                {
                     "@id": "bts:IndividualId"
                 },
                 {
@@ -14264,7 +14267,7 @@
         {
             "@id": "bts:ImagingAssay",
             "@type": "rdfs:Class",
-            "rdfs:comment": "nameAn assay of imaging type (rnaseq, exomeseq, etc). ",
+            "rdfs:comment": "An assay of imaging type (ihc, etc). ",
             "rdfs:label": "ImagingAssay",
             "rdfs:subClassOf": [
                 {
@@ -14278,7 +14281,16 @@
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
+                    "@id": "bts:FileName"
+                },
+                {
                     "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:StudyId"
+                },
+                {
+                    "@id": "bts:StudyName"
                 },
                 {
                     "@id": "bts:ResourceType"
@@ -14290,16 +14302,19 @@
                     "@id": "bts:Consortium"
                 },
                 {
-                    "@id": "bts:StudyId"
+                    "@id": "bts:IndividualId"
+                },
+                {
+                    "@id": "bts:SpecimenId"
                 }
             ],
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Filename",
+            "@id": "bts:FileName",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Filename",
+            "rdfs:comment": "The name of the file. ",
+            "rdfs:label": "FileName",
             "rdfs:subClassOf": [
                 {
                     "@id": "schema:Thing"
@@ -14308,7 +14323,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "filename",
+            "sms:displayName": "fileName",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
