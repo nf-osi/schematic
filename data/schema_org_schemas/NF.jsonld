@@ -14225,7 +14225,7 @@
             "rdfs:label": "GenomicsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:SageCommunity"
+                    "@id": "bts:NF"
                 }
             ],
             "schema:isPartOf": {
@@ -14235,7 +14235,7 @@
             "sms:required": "sms:true",
             "sms:requiresDependency": [
                 {
-                    "@id": "bts:FileName"
+                    "@id": "bts:Filename"
                 },
                 {
                     "@id": "bts:FileFormat"
@@ -14271,17 +14271,17 @@
             "rdfs:label": "ImagingAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "schema:Thing"
+                    "@id": "bts:NF"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "imagingAssay",
-            "sms:required": "sms:false",
+            "sms:required": "sms:true",
             "sms:requiresDependency": [
                 {
-                    "@id": "bts:FileName"
+                    "@id": "bts:Filename"
                 },
                 {
                     "@id": "bts:FileFormat"
@@ -14311,20 +14311,20 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:FileName",
+            "@id": "bts:Filename",
             "@type": "rdfs:Class",
             "rdfs:comment": "The name of the file. ",
-            "rdfs:label": "FileName",
+            "rdfs:label": "Filename",
             "rdfs:subClassOf": [
                 {
-                    "@id": "schema:Thing"
+                    "@id": "bts:NF"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "fileName",
-            "sms:required": "sms:false",
+            "sms:displayName": "Filename",
+            "sms:required": "sms:true",
             "sms:validationRules": []
         },
         {
