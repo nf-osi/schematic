@@ -5097,108 +5097,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Medialdorsalnucleusofthalamus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex.",
-            "rdfs:label": "Medialdorsalnucleusofthalamus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "medial dorsal nucleus of thalamus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Posteriorinferiorparietalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Posteriorinferiorparietalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "posterior inferior parietal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Midbrain",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
-            "rdfs:label": "Midbrain",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "midbrain",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Cerebralcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
-            "rdfs:label": "Cerebralcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cerebral cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Frontallobe",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Frontal lobe is the anterior-most of five lobes of the cerebral hemisphere. It is bounded by the central sulcus on its posterior border and by the longitudinal cerebral fissure on its medial border.",
-            "rdfs:label": "Frontallobe",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "frontal lobe",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Hippocampus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A curved elongated ridge that extends over the floor of the descending horn of each lateral ventricle of the brain and consists of gray matter covered on the ventricular surface with white matter.",
-            "rdfs:label": "Hippocampus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "hippocampus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Nervetissue",
             "@type": "rdfs:Class",
             "rdfs:comment": "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",
@@ -5212,567 +5110,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "nerve tissue",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Dorsolateralprefrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Broadly-defined, consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47.",
-            "rdfs:label": "Dorsolateralprefrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "dorsolateral prefrontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Anteriorcingulatecortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "That portion of the cingulate cortex which is located within the frontal lobe (the remainder being in the parietal lobe).",
-            "rdfs:label": "Anteriorcingulatecortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "anterior cingulate cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Frontalpole",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine).",
-            "rdfs:label": "Frontalpole",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "frontal pole",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Parahippocampalgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A long convolution on the medial surface of the temporal lobe, forming the lower part of the fornicate gyrus, extending from behind the splenium corporis callosi forward along the dentate gyrus of the hippocampus from which it is demarcated by the hippocampal fissure.",
-            "rdfs:label": "Parahippocampalgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "parahippocampal gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Superiortemporalgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the ssuperior temporal sulcus. The caudal boundary is the cauday portion of the superior temporal gyrus (posterior to becoming continuous with the supramarginal gyrus).",
-            "rdfs:label": "Superiortemporalgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "superior temporal gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Inferiorfrontalgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the inferior frontal sulcus whereas the caudal boundary is the precentral gyrus. The medial and lateral boundaries are the lateral bank of the inferior frontal sulcus and the medial bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christein Fennema-Notestine).",
-            "rdfs:label": "Inferiorfrontalgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "inferior frontal gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Cerebellum",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem.",
-            "rdfs:label": "Cerebellum",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cerebellum",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Occipitalvisualcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The area of the occipital lobe of the cerebral cortex concerned with vision.",
-            "rdfs:label": "Occipitalvisualcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "occipital visual cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Inferiortemporalgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface.",
-            "rdfs:label": "Inferiortemporalgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "inferior temporal gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Middletemporalgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the superior temporal sulcus whereas the caudal boundary is the temporo-occipital incisure on the cortical surface.",
-            "rdfs:label": "Middletemporalgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "middle temporal gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Posteriorcingulatecortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the cingulate cortex. The rostral and caudal extent were the caudal anterior and the isthmus divisions of the cingulate cortex respectively.",
-            "rdfs:label": "Posteriorcingulatecortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "posterior cingulate cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Temporalpole",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex.",
-            "rdfs:label": "Temporalpole",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "temporal pole",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Precentralgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the frontal lobe. The appearance and disappearance of the central sulcus is the rostral and caudal boundaries of the precentral gyrus respectively.",
-            "rdfs:label": "Precentralgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "precentral gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Superiorparietallobe",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A superficial feature of the parietal lobe that extends from the dorsal surface of the superior parietal lobule across the margin of the parietal lobe into the precuneus.",
-            "rdfs:label": "Superiorparietallobe",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "superior parietal lobe",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Prefrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The prefrontal cortex is the anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas.",
-            "rdfs:label": "Prefrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "prefrontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Amygdala",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The one of the four basal ganglia in each cerebral hemisphere that is part of the limbic system and consists of an almond-shaped mass of gray matter in the anterior extremity of the temporal lobe.",
-            "rdfs:label": "Amygdala",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "amygdala",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Caudatenucleus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Subcortical nucleus of telecephalic origin consisting of an elongated gray mass lying lateral to and bordering the lateral ventricle.",
-            "rdfs:label": "Caudatenucleus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "caudate nucleus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Nucleusaccumbens",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent).",
-            "rdfs:label": "Nucleusaccumbens",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "nucleus accumbens",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Putamen",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Subcortical nucleus of telencephalic , which together with the caudate nucleus, forms the striatum.",
-            "rdfs:label": "Putamen",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "putamen",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Temporalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Gray matter of the temporal region of the neocortex, located in the temporal lobe in gyrencephalic animals.",
-            "rdfs:label": "Temporalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "temporal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Orbitofrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The region of the cerebral cortex covering the basal surface of the frontal lobes.",
-            "rdfs:label": "Orbitofrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "orbitofrontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Ventrolateralprefrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Is part of the prefrontal cortex, located on the inferior frontal gyrus, bounded superiorly by the inferior frontal sulcus and inferiorly by the lateral sulcus.",
-            "rdfs:label": "Ventrolateralprefrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "ventrolateral prefrontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Medialfrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.",
-            "rdfs:label": "Medialfrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "medial frontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Primarymotorcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Primarymotorcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "primary motor cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Primarysomatosensorycortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord.",
-            "rdfs:label": "Primarysomatosensorycortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "primary somatosensory cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Posteroinferiorparietalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals.",
-            "rdfs:label": "Posteroinferiorparietalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "posteroinferior parietal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Primaryauditorycortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex.",
-            "rdfs:label": "Primaryauditorycortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "primary auditory cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Posteriorsuperiortemporalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Posteriorsuperiortemporalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "posterior superior temporal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Inferolateraltemporalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Inferolateraltemporalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "inferolateral temporal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Primaryvisualcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A subdivision of the cytoarchitecturally defined occipital region of cerebral cortex in the human.",
-            "rdfs:label": "Primaryvisualcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "primary visual cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Amygdaloidcomplex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Amygdaloidcomplex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "amygdaloid complex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Striatum",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A region of the forebrain consisting of the caudate nucleus, putamen and fundus striati.",
-            "rdfs:label": "Striatum",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "striatum",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Cerebellarcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The superficial gray matter of the cerebellum. It consists of three layers, the stratum moleculare, stratum granulosum, and stratum purkinjense.",
-            "rdfs:label": "Cerebellarcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cerebellar cortex",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -5901,142 +5238,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Forebrain",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The most anterior region the brain including both the telencephalon and diencephalon.",
-            "rdfs:label": "Forebrain",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "forebrain",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Medialorbitalfrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.",
-            "rdfs:label": "Medialorbitalfrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "medial orbital frontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Medialprefrontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The medial prefrontal cortex (mPFC) is composed of granular cortical areas (medial areas 9 and 10) and agranular regions (areas 24, 25, and 32)",
-            "rdfs:label": "Medialprefrontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "medial prefrontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Inferiortemporalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans.",
-            "rdfs:label": "Inferiortemporalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "inferior temporal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Middlefrontalgyrus",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Component of the frontal lobe, lateral aspect",
-            "rdfs:label": "Middlefrontalgyrus",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "middle frontal gyrus",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Corticalplate",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
-            "rdfs:label": "Corticalplate",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cortical plate",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:VZ/SVZ",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles",
-            "rdfs:label": "VZ/SVZ",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "VZ/SVZ",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Dorsalpallium",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Subdivision of pallium that is located dorsally",
-            "rdfs:label": "Dorsalpallium",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "dorsal pallium",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Bonemarrow",
             "@type": "rdfs:Class",
             "rdfs:comment": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
@@ -6135,40 +5336,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Buffy Coat",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Frontalcortex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally",
-            "rdfs:label": "Frontalcortex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "frontal cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Olfactoryneuroepithelium",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
-            "rdfs:label": "Olfactoryneuroepithelium",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "olfactory neuroepithelium",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -14328,6 +13495,669 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Medialdorsalnucleusofthalamus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Medialdorsalnucleusofthalamus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "medial dorsal nucleus of thalamus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Posteriorinferiorparietalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Posteriorinferiorparietalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "posterior inferior parietal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Midbrain",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Midbrain",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "midbrain",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cerebralcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cerebralcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cerebral cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Frontallobe",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Frontallobe",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "frontal lobe",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Hippocampus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Hippocampus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "hippocampus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Dorsolateralprefrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Dorsolateralprefrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "dorsolateral prefrontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Anteriorcingulatecortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Anteriorcingulatecortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "anterior cingulate cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Frontalpole",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Frontalpole",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "frontal pole",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Parahippocampalgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Parahippocampalgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "parahippocampal gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Superiortemporalgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Superiortemporalgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "superior temporal gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Inferiorfrontalgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Inferiorfrontalgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "inferior frontal gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cerebellum",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cerebellum",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cerebellum",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Occipitalvisualcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Occipitalvisualcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "occipital visual cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Inferiortemporalgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Inferiortemporalgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "inferior temporal gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Middletemporalgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Middletemporalgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "middle temporal gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Posteriorcingulatecortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Posteriorcingulatecortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "posterior cingulate cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Temporalpole",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Temporalpole",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "temporal pole",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Precentralgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Precentralgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "precentral gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Superiorparietallobe",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Superiorparietallobe",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "superior parietal lobe",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Prefrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Prefrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "prefrontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Amygdala",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Amygdala",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "amygdala",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Caudatenucleus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Caudatenucleus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "caudate nucleus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Nucleusaccumbens",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Nucleusaccumbens",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "nucleus accumbens",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Putamen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Putamen",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "putamen",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Temporalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Temporalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "temporal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Orbitofrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Orbitofrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "orbitofrontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ventrolateralprefrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Ventrolateralprefrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ventrolateral prefrontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Medialfrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Medialfrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "medial frontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Primarymotorcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Primarymotorcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "primary motor cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Primarysomatosensorycortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Primarysomatosensorycortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "primary somatosensory cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Posteroinferiorparietalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Posteroinferiorparietalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "posteroinferior parietal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Primaryauditorycortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Primaryauditorycortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "primary auditory cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Posteriorsuperiortemporalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Posteriorsuperiortemporalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "posterior superior temporal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Inferolateraltemporalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Inferolateraltemporalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "inferolateral temporal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Primaryvisualcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Primaryvisualcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "primary visual cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Amygdaloidcomplex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Amygdaloidcomplex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "amygdaloid complex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Striatum",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Striatum",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "striatum",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cerebellarcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cerebellarcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cerebellar cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:NotApplicable",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -14341,6 +14171,176 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Not Applicable",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Forebrain",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Forebrain",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "forebrain",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Medialorbitalfrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Medialorbitalfrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "medial orbital frontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Medialprefrontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Medialprefrontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "medial prefrontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Inferiortemporalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Inferiortemporalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "inferior temporal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Middlefrontalgyrus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Middlefrontalgyrus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "middle frontal gyrus",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Corticalplate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Corticalplate",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cortical plate",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VZ/SVZ",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "VZ/SVZ",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "VZ/SVZ",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Dorsalpallium",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Dorsalpallium",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "dorsal pallium",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Frontalcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Frontalcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "frontal cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Olfactoryneuroepithelium",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Olfactoryneuroepithelium",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "olfactory neuroepithelium",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
