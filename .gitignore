@@ -1,0 +1,7 @@
+quickstart-1560359685924-198a7114b6b5.json
+credentials.json 
+token.pickle
+.DS_Store
+**/__pycache__
+.synapseConfig
+schematic.egg-info/**
