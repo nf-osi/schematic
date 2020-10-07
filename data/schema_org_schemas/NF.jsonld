@@ -10703,6 +10703,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:GFF",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Gilbert Family Foundation",
+            "rdfs:label": "GFF",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:FundingAgency"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "GFF",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:NIH-NCI",
             "@type": "rdfs:Class",
             "rdfs:comment": "National Institutes of Health - National Cancer Institute",
