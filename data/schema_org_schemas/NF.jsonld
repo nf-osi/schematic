@@ -6979,57 +6979,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:BladderCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A malignancy originating in tissues of the urinary bladder.",
-            "rdfs:label": "BladderCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Bladder Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Leukemia",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
-            "rdfs:label": "Leukemia",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Leukemia",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TouretteSyndrome",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities.",
-            "rdfs:label": "TouretteSyndrome",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Tourette Syndrome",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Neurofibromatosis1",
             "@type": "rdfs:Class",
             "rdfs:comment": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
@@ -7064,10 +7013,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:BipolarDisorder",
+            "@id": "bts:Schwannomatosis",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
-            "rdfs:label": "BipolarDisorder",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Schwannomatosis",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Diagnosis"
@@ -7076,15 +7025,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Bipolar Disorder",
+            "sms:displayName": "Schwannomatosis",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:AlzheimerDisease",
+            "@id": "bts:NotApplicable",
             "@type": "rdfs:Class",
-            "rdfs:comment": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
-            "rdfs:label": "AlzheimerDisease",
+            "rdfs:comment": "An NF diagnosis (e.g. NF1, NF2, or Schwannomatosis) does not apply here.",
+            "rdfs:label": "NotApplicable",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Diagnosis"
@@ -7093,245 +7042,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Alzheimer Disease",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Schizophrenia",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
-            "rdfs:label": "Schizophrenia",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Schizophrenia",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:AutismSpectrumDisorder",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
-            "rdfs:label": "AutismSpectrumDisorder",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Autism Spectrum Disorder",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:FibrocysticBreastDisease",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
-            "rdfs:label": "FibrocysticBreastDisease",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Fibrocystic Breast Disease",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:BreastCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "(BC) - A common malignancy originating from breast epithelial tissue.",
-            "rdfs:label": "BreastCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Breast Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ColonCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A colorectal cancer that is located_in the colon.",
-            "rdfs:label": "ColonCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Colon Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:LungCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A respiratory system cancer that is located_in the lung.",
-            "rdfs:label": "LungCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Lung Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ProstateCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A male reproductive organ cancer that is located_in the prostate.",
-            "rdfs:label": "ProstateCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Prostate Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PancreaticCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An endocrine gland cancer located_in the pancreas.",
-            "rdfs:label": "PancreaticCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Pancreatic Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SkinCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
-            "rdfs:label": "SkinCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Skin Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:BrainCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
-            "rdfs:label": "BrainCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Brain Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:OvaryCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An ovarian cancer that is derives_from ovarian surface epithelium.",
-            "rdfs:label": "OvaryCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Ovary Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:AffectiveDisorder",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Change in mood is the main underlying feature of these disorders.",
-            "rdfs:label": "AffectiveDisorder",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Affective Disorder",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CervicalCancer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
-            "rdfs:label": "CervicalCancer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Cervical Cancer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:JuvenileMyelomonocyticLeukemia",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
-            "rdfs:label": "JuvenileMyelomonocyticLeukemia",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Diagnosis"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Juvenile Myelomonocytic Leukemia",
+            "sms:displayName": "Not Applicable",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -7350,70 +7061,16 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:BladderCancer"
-                },
-                {
-                    "@id": "bts:Leukemia"
-                },
-                {
-                    "@id": "bts:TouretteSyndrome"
-                },
-                {
                     "@id": "bts:Neurofibromatosis1"
                 },
                 {
                     "@id": "bts:Neurofibromatosis2"
                 },
                 {
-                    "@id": "bts:BipolarDisorder"
-                },
-                {
-                    "@id": "bts:AlzheimerDisease"
-                },
-                {
-                    "@id": "bts:Schizophrenia"
-                },
-                {
-                    "@id": "bts:AutismSpectrumDisorder"
-                },
-                {
-                    "@id": "bts:FibrocysticBreastDisease"
-                },
-                {
-                    "@id": "bts:BreastCancer"
-                },
-                {
-                    "@id": "bts:ColonCancer"
-                },
-                {
-                    "@id": "bts:LungCancer"
-                },
-                {
-                    "@id": "bts:ProstateCancer"
-                },
-                {
-                    "@id": "bts:PancreaticCancer"
-                },
-                {
-                    "@id": "bts:SkinCancer"
-                },
-                {
-                    "@id": "bts:BrainCancer"
-                },
-                {
-                    "@id": "bts:OvaryCancer"
-                },
-                {
-                    "@id": "bts:AffectiveDisorder"
+                    "@id": "bts:Schwannomatosis"
                 },
                 {
                     "@id": "bts:NotApplicable"
-                },
-                {
-                    "@id": "bts:CervicalCancer"
-                },
-                {
-                    "@id": "bts:JuvenileMyelomonocyticLeukemia"
                 }
             ],
             "sms:displayName": "diagnosis",
@@ -10822,6 +10479,9 @@
                     "@id": "bts:CTF"
                 },
                 {
+                    "@id": "bts:GFF"
+                },
+                {
                     "@id": "bts:NIH-NCI"
                 },
                 {
@@ -12496,7 +12156,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "readLength",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -13440,10 +13100,10 @@
                     "@id": "bts:Consortium"
                 },
                 {
-                    "@id": "bts:IndividualId"
+                    "@id": "bts:IndividualID"
                 },
                 {
-                    "@id": "bts:SpecimenId"
+                    "@id": "bts:SpecimenID"
                 }
             ],
             "sms:validationRules": []
@@ -13486,10 +13146,10 @@
                     "@id": "bts:Consortium"
                 },
                 {
-                    "@id": "bts:IndividualId"
+                    "@id": "bts:IndividualID"
                 },
                 {
-                    "@id": "bts:SpecimenId"
+                    "@id": "bts:SpecimenID"
                 }
             ],
             "sms:validationRules": []
@@ -13508,6 +13168,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Filename",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IndividualID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A unique identifier (non-PII) that represents the individual from which the data came. This could be a patient or animal ID. ",
+            "rdfs:label": "IndividualID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "individualID",
             "sms:required": "sms:true",
             "sms:validationRules": []
         },
@@ -14171,23 +13848,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "cerebellar cortex",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NotApplicable",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NotApplicable",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Tissue"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Not Applicable",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -15259,23 +14919,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "B6C3-Tg(APPswe",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IndividualID",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IndividualID",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ExperimentalData"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "individualID",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -18166,40 +17809,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Neurofibromatosis Therapeutic Consortium - University of California San Franciso",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IndividualId",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IndividualId",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:GenomicsAssay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "individualId",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SpecimenId",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SpecimenId",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:GenomicsAssay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "specimenId",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
