@@ -6,7 +6,7 @@
 
   model:
     input:
-      location: 'schema_org_schemas/NF.jsonld'
+      location: 'schema_org_schemas/NF_v2.jsonld'
       file_type: 'local'
       log_location: 'json_schema_logs/json_schema_log.json'
     biothings:
