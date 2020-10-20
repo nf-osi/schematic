@@ -5570,7 +5570,7 @@
         {
             "@id": "bts:HiSeq3000",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Illumina HiSeq 3000",
+            "rdfs:comment": "FALSE",
             "rdfs:label": "HiSeq3000",
             "rdfs:subClassOf": [
                 {
@@ -5972,6 +5972,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "IlluminaHumanMethylation450",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IlluminaInfiniumMethylationEPICBeadChip",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An Illumina methylation BeadChip which is an array that interrogates ~ 850,000 methylation sites per sample at single-nucleotide resolution.",
+            "rdfs:label": "IlluminaInfiniumMethylationEPICBeadChip",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Illumina Infinium MethylationEPIC BeadChip",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -7015,7 +7032,7 @@
         {
             "@id": "bts:Schwannomatosis",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
+            "rdfs:comment": "A rare genetic disorder characterized by the presence of multiple schwannomas.",
             "rdfs:label": "Schwannomatosis",
             "rdfs:subClassOf": [
                 {
@@ -7622,7 +7639,7 @@
                 }
             ],
             "sms:displayName": "genePerturbationType",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
                     "@id": "bts:GenePerturbationTechnology"
@@ -7706,7 +7723,7 @@
                 }
             ],
             "sms:displayName": "genePerturbationTechnology",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -7765,7 +7782,7 @@
                 }
             ],
             "sms:displayName": "timePointUnit",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
