@@ -4126,6 +4126,12 @@
             },
             "schema:rangeIncludes": [
                 {
+                    "@id": "bts:Seconds"
+                },
+                {
+                    "@id": "bts:Minutes"
+                },
+                {
                     "@id": "bts:Hours"
                 },
                 {
@@ -6486,7 +6492,7 @@
         {
             "@id": "bts:Platform",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Name of the platform used to obtain data.",
+            "rdfs:comment": "Name of the sequencing, imaging, or other platform used to obtain data.",
             "rdfs:label": "Platform",
             "rdfs:subClassOf": [
                 {
@@ -6950,10 +6956,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:SpecimenID",
+            "@id": "bts:Auniqueidentifier(non-PII)thatrepresentsthespecimenfromwhichthedatacame.ThiscouldbethesameastheindividualID,oritcouldbemoregranularifmultiplespecimenswereacquiredfromthesameindividual.",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SpecimenID",
+            "rdfs:comment": "A unique identifier (non-PII) that represents the individual from which the data came. This could be a patient or animal ID. ",
+            "rdfs:label": "Auniqueidentifier(non-PII)thatrepresentsthespecimenfromwhichthedatacame.ThiscouldbethesameastheindividualID,oritcouldbemoregranularifmultiplespecimenswereacquiredfromthesameindividual.",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ExperimentalData"
@@ -6962,7 +6968,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "specimenID",
+            "sms:displayName": "A unique identifier (non-PII) that represents the specimen from which the data came. This could be the same as the individualID, or it could be more granular if multiple specimens were acquired from the same individual.",
             "sms:required": "sms:true",
             "sms:validationRules": []
         },
@@ -6986,7 +6992,7 @@
         {
             "@id": "bts:AssayTarget",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The gene symbol that represents the target analyte assayed during an immunohistochemical test.",
+            "rdfs:comment": "The HUGO gene symbol that represents the target analyte assayed.",
             "rdfs:label": "AssayTarget",
             "rdfs:subClassOf": [
                 {
@@ -6996,38 +7002,6 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:H3K9me3"
-                },
-                {
-                    "@id": "bts:H3K4me3"
-                },
-                {
-                    "@id": "bts:H3K4me1"
-                },
-                {
-                    "@id": "bts:H3K27ac"
-                },
-                {
-                    "@id": "bts:H3K36me3"
-                },
-                {
-                    "@id": "bts:H3K27me3"
-                },
-                {
-                    "@id": "bts:H3K9ac"
-                },
-                {
-                    "@id": "bts:REST"
-                },
-                {
-                    "@id": "bts:CTCF"
-                },
-                {
-                    "@id": "bts:Input"
-                }
-            ],
             "sms:displayName": "assayTarget",
             "sms:required": "sms:true",
             "sms:validationRules": []
@@ -7063,6 +7037,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "bedgraph",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ai",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Adobe Illustrator format",
+            "rdfs:label": "Ai",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:FileFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ai",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -8427,10 +8418,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NIH-NIA",
+            "@id": "bts:NFRI",
             "@type": "rdfs:Class",
-            "rdfs:comment": "National Institutes of Health - National Institute of Aging",
-            "rdfs:label": "NIH-NIA",
+            "rdfs:comment": "Neurofibromatosis Reserach Initiative",
+            "rdfs:label": "NFRI",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:FundingAgency"
@@ -8439,41 +8430,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "NIH-NIA",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NIH-NIMH",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "National Institutes of Health - National Institute of Mental Health",
-            "rdfs:label": "NIH-NIMH",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NIH-NIMH",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:AACR",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "American Association for Cancer Research",
-            "rdfs:label": "AACR",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "AACR",
+            "sms:displayName": "NFRI",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11093,6 +11050,57 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:ExperimentalCondition",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
+            "rdfs:label": "ExperimentalCondition",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SageCommunity"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "experimentalCondition",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ExperimentalTimepoint",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The numeric value indicating the time elapsed from the beginning of the experiment at which the specimen was collected. Use in tandem with timePointUnit",
+            "rdfs:label": "ExperimentalTimepoint",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SageCommunity"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "experimentalTimepoint",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GenePerturbed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The HUGO gene symbol for the gene that is perturbed. ",
+            "rdfs:label": "GenePerturbed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SageCommunity"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "genePerturbed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ExperimentalData",
             "@type": "rdfs:Class",
             "rdfs:comment": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
@@ -11325,13 +11333,7 @@
                     "@id": "bts:NTAP"
                 },
                 {
-                    "@id": "bts:NIH-NIA"
-                },
-                {
-                    "@id": "bts:NIH-NIMH"
-                },
-                {
-                    "@id": "bts:AACR"
+                    "@id": "bts:NFRI"
                 }
             ],
             "sms:displayName": "fundingAgency",
@@ -11819,6 +11821,40 @@
                     "@id": "bts:ModelSystemName"
                 }
             ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Seconds",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Seconds",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TimePointUnit"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "seconds",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Minutes",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Minutes",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:TimePointUnit"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "minutes",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -13318,6 +13354,23 @@
                     "@id": "bts:SpecimenID"
                 }
             ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpecimenID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "SpecimenID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ATACseq"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "specimenID",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -15068,57 +15121,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GenePerturbed",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "GenePerturbed",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ImagingAssay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "genePerturbed",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExperimentalCondition",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ExperimentalCondition",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ImagingAssay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "experimentalCondition",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExperimentalTimepoint",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ExperimentalTimepoint",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ImagingAssay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "experimentalTimepoint",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
