@@ -4786,10 +4786,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:DHARTSPORE",
+            "@id": "bts:DHART-SPORE",
             "@type": "rdfs:Class",
             "rdfs:comment": "Data from the D-HART SPORE",
-            "rdfs:label": "DHARTSPORE",
+            "rdfs:label": "DHART-SPORE",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Consortium"
@@ -4798,7 +4798,211 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "DHART SPORE",
+            "sms:displayName": "DHART-SPORE",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CellCultureInitiative",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NTAP Cell Culture Initiative",
+            "rdfs:label": "CellCultureInitiative",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Cell Culture Initiative",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:CNFInitiative",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NTAP cNF Initiative",
+            "rdfs:label": "CNFInitiative",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cNF Initiative",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:FrancisCollins",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NTAP Francis Collins Scholars studies",
+            "rdfs:label": "FrancisCollins",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Francis Collins",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GeneTherapyInitiative",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the GFF Gene Therapy Initative",
+            "rdfs:label": "GeneTherapyInitiative",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Gene Therapy Initiative",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Independent",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from a project not associated with an initative",
+            "rdfs:label": "Independent",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Independent",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:MPNSTPatient-DerivedModelCenters",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NFRI MPNST Patient-Derived Model Centers",
+            "rdfs:label": "MPNSTPatient-DerivedModelCenters",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "MPNST Patient-Derived Model Centers",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NFTC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NTAP/CTF NF Therapeutic Consortium",
+            "rdfs:label": "NFTC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NFTC",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NTAPOpenProposal",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NTAP Open Proposals Initiative",
+            "rdfs:label": "NTAPOpenProposal",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NTAP Open Proposal",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PatientReportedOutcomes",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the NTAP Patient Reported Outcomes Initiative",
+            "rdfs:label": "PatientReportedOutcomes",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Patient Reported Outcomes",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:VisionRestorationInitiative",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the GFF Vision Restoration Initiative",
+            "rdfs:label": "VisionRestorationInitiative",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Vision Restoration Initiative",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:YoungInvestigatorAward",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the CTF Young Investigator Award ",
+            "rdfs:label": "YoungInvestigatorAward",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Young Investigator Award",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DDI-RR",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Data from the CTF Drug Discovery - Registered Reports Initiative",
+            "rdfs:label": "DDI-RR",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Consortium"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "DDI-RR",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11355,13 +11559,43 @@
             },
             "schema:rangeIncludes": [
                 {
+                    "@id": "bts:CellCultureInitiative"
+                },
+                {
+                    "@id": "bts:CNFInitiative"
+                },
+                {
+                    "@id": "bts:DHART-SPORE"
+                },
+                {
+                    "@id": "bts:FrancisCollins"
+                },
+                {
+                    "@id": "bts:GeneTherapyInitiative"
+                },
+                {
+                    "@id": "bts:Independent"
+                },
+                {
+                    "@id": "bts:MPNSTPatient-DerivedModelCenters"
+                },
+                {
+                    "@id": "bts:NFTC"
+                },
+                {
+                    "@id": "bts:NTAPOpenProposal"
+                },
+                {
+                    "@id": "bts:PatientReportedOutcomes"
+                },
+                {
                     "@id": "bts:Synodos"
                 },
                 {
-                    "@id": "bts:DHARTSPORE"
+                    "@id": "bts:VisionRestorationInitiative"
                 },
                 {
-                    "@id": "bts:NotApplicable"
+                    "@id": "bts:YoungInvestigatorAward"
                 }
             ],
             "sms:displayName": "consortium",
