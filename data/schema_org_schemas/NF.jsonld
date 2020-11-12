@@ -2314,10 +2314,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:FIA-MSMS",
+            "@id": "bts:I",
             "@type": "rdfs:Class",
             "rdfs:comment": "Flow injection analysis - tandem mass spectrometer",
-            "rdfs:label": "FIA-MSMS",
+            "rdfs:label": "I",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Assay"
@@ -2326,7 +2326,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "FIA-MSMS",
+            "sms:displayName": "i",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
@@ -7087,10 +7087,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Auniqueidentifier(non-PII)thatrepresentsthespecimenfromwhichthedatacame.ThiscouldbethesameastheindividualID,oritcouldbemoregranularifmultiplespecimenswereacquiredfromthesameindividual.",
+            "@id": "bts:IndividualID",
             "@type": "rdfs:Class",
             "rdfs:comment": "A unique identifier (non-PII) that represents the individual from which the data came. This could be a patient or animal ID. ",
-            "rdfs:label": "Auniqueidentifier(non-PII)thatrepresentsthespecimenfromwhichthedatacame.ThiscouldbethesameastheindividualID,oritcouldbemoregranularifmultiplespecimenswereacquiredfromthesameindividual.",
+            "rdfs:label": "IndividualID",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ExperimentalData"
@@ -7099,7 +7099,24 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "A unique identifier (non-PII) that represents the specimen from which the data came. This could be the same as the individualID, or it could be more granular if multiple specimens were acquired from the same individual.",
+            "sms:displayName": "individualID",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpecimenID",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A unique identifier (non-PII) that represents the specimen from which the data came. e.g. an ID that indicates a specific tumor specimen.",
+            "rdfs:label": "SpecimenID",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ExperimentalData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "specimenID",
             "sms:required": "sms:true",
             "sms:validationRules": []
         },
@@ -9202,9 +9219,6 @@
                     "@id": "bts:StudyName"
                 },
                 {
-                    "@id": "bts:ResourceType"
-                },
-                {
                     "@id": "bts:FundingAgency"
                 },
                 {
@@ -9214,13 +9228,76 @@
                     "@id": "bts:FileFormat"
                 },
                 {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
                     "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
                 },
                 {
                     "@id": "bts:SpecimenID"
                 },
                 {
-                    "@id": "bts:"
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:AssayTarget"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                },
+                {
+                    "@id": "bts:Platform"
                 }
             ],
             "sms:validationRules": []
@@ -11064,7 +11141,7 @@
         {
             "@id": "bts:ExperimentalCondition",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin).",
             "rdfs:label": "ExperimentalCondition",
             "rdfs:subClassOf": [
                 {
@@ -13453,19 +13530,19 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:SpecimenID",
+            "@id": "bts:FIA-MSMS",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "SpecimenID",
+            "rdfs:label": "FIA-MSMS",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ATACseq"
+                    "@id": "bts:Assay"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "specimenID",
+            "sms:displayName": "FIA-MSMS",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -13636,23 +13713,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Nf1-OPG-Arg816",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:GenomicsAssay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
