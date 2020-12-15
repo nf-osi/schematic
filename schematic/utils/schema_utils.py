@@ -148,9 +148,6 @@ def relationship_edges(schema_graph_nx: nx.MultiDiGraph, class_add_mod: dict, **
         "rdfs:subClassOf": {
             "parentOf": "in"
         },
-        "schema:domainIncludes": {
-            "domainValue": "in"
-        },
         "sms:requiresDependency": {
             "requiresDependency": "out"
         },
@@ -182,12 +179,12 @@ def relationship_edges(schema_graph_nx: nx.MultiDiGraph, class_add_mod: dict, **
                             schema_graph_nx.add_edge(n1, n2, key=rel_label)
                 elif type(parents) == dict:
                     if node_type == "in":
-                        n1 = extract_name_from_uri_or_curie(parents["@id"])
+                        n1 = extract_name_from_uri_or_curie(_parent["@id"])
                         n2 = class_add_mod["rdfs:label"]
 
                     if node_type == "out":
                         n1 = class_add_mod["rdfs:label"]
-                        n2 = extract_name_from_uri_or_curie(parents["@id"])
+                        n2 = extract_name_from_uri_or_curie(_parent["@id"])
 
                     # do not allow self-loops
                     if n1 != n2:
@@ -214,11 +211,6 @@ def class_to_node(class_to_convert: dict) -> nx.Graph:
             node["required"] = True
         else:
             node["required"] = False
-
-    if "sms:validationRules" in class_to_convert:
-        node["validationRules"] = class_to_convert["sms:validationRules"]
-    else:
-        node["validationRules"] = []
 
     node["uri"] = class_to_convert["@id"]   # add separate "uri" key
     node["description"] = class_to_convert["rdfs:comment"] # separately store "comment" as "description"
