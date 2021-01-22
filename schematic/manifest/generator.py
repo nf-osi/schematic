@@ -227,7 +227,7 @@ class ManifestGenerator(object):
         batch.execute()
 
 
-    def _get_column_data_validation_values(self, spreadsheet_id, valid_values, column_id, validation_type = "ONE_OF_LIST", strict = True, custom_ui = True, input_message = "Choose one from dropdown"):
+    def _get_column_data_validation_values(self, spreadsheet_id, valid_values, column_id, validation_type = "ONE_OF_LIST", strict = False, custom_ui = True, input_message = "Choose one from dropdown"):
 
         # get valid values w/o google sheet header 
         values = [valid_value["userEnteredValue"] for valid_value in valid_values]
