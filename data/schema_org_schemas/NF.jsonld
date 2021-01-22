@@ -2314,10 +2314,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:I",
+            "@id": "bts:FIA-MSMS",
             "@type": "rdfs:Class",
             "rdfs:comment": "Flow injection analysis - tandem mass spectrometer",
-            "rdfs:label": "I",
+            "rdfs:label": "FIA-MSMS",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Assay"
@@ -2326,7 +2326,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "i",
+            "sms:displayName": "FIA-MSMS",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
@@ -6620,7 +6620,7 @@
         {
             "@id": "bts:Platform",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Name of the sequencing, imaging, or other platform used to obtain data.",
+            "rdfs:comment": "HiSeq3000, HiSeq2500, HiSeq4000, NextSeq500, HiSeq2000, MiSeq, Zeiss LSM 980, Affy5.0, Affy6.0, PacBioRSII, GAIIx, Illumina_HumanOmni1-Quadv1.0, Illumina_1M, Illumina_h650, Illumina_Omni2pt5M, Illumina_Omni5M, Illumina MouseWG-6 v2.0 expression beadchip, Perlegen300Karray, Agilent44Karray, IlluminaWholeGenomeDASL, IlluminaHumanHap300, NanostringnCounter, LTQOrbitrapXL, IlluminaHumanMethylation450, Illumina Infinium MethylationEPIC BeadChip, AffymetrixU133AB, Affymetrix Human Gene 1.0 ST Array, AffymetrixU133Plus2, HiSeqX, Bionano Irys, Infinium HumanOmniExpressExome, NextSeq 550, NextSeq 1000, NextSeq 2000, PacBio Sequel IIe System, PacBio Sequel II System, NanostringGeoMx",
             "rdfs:label": "Platform",
             "rdfs:subClassOf": [
                 {
@@ -6631,9 +6631,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "schema:rangeIncludes": [
-                {
-                    "@id": "bts:NanostringnCounterMouseADPanel"
-                },
                 {
                     "@id": "bts:HiSeq3000"
                 },
@@ -6654,9 +6651,6 @@
                 },
                 {
                     "@id": "bts:ZeissLSM980"
-                },
-                {
-                    "@id": "bts:PsychChip"
                 },
                 {
                     "@id": "bts:Affy5.0"
@@ -6725,12 +6719,6 @@
                     "@id": "bts:ConfocalImaging"
                 },
                 {
-                    "@id": "bts:IlluminaHumanHT-12V30R1"
-                },
-                {
-                    "@id": "bts:SequenomMultiplex"
-                },
-                {
                     "@id": "bts:HiSeqX"
                 },
                 {
@@ -6738,6 +6726,24 @@
                 },
                 {
                     "@id": "bts:InfiniumHumanOmniExpressExome"
+                },
+                {
+                    "@id": "bts:NextSeq550"
+                },
+                {
+                    "@id": "bts:NextSeq1000"
+                },
+                {
+                    "@id": "bts:NextSeq2000"
+                },
+                {
+                    "@id": "bts:PacBioSequelIIeSystem"
+                },
+                {
+                    "@id": "bts:PacBioSequelIISystem"
+                },
+                {
+                    "@id": "bts:NanostringGeoMx"
                 }
             ],
             "sms:displayName": "platform",
@@ -8498,6 +8504,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:MzML",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "mzML format for raw spectrometer output data, standardised by HUPO PSI MSS.",
+            "rdfs:label": "MzML",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:FileFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mzML",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:CTF",
             "@type": "rdfs:Class",
             "rdfs:comment": "Childrens' Tumor Foundation",
@@ -9298,6 +9321,9 @@
                 },
                 {
                     "@id": "bts:Platform"
+                },
+                {
+                    "@id": "bts:ReadDepth"
                 }
             ],
             "sms:validationRules": []
@@ -10272,23 +10298,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NanostringnCounterMouseADPanel",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
-            "rdfs:label": "NanostringnCounterMouseADPanel",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NanostringnCounter_MouseADPanel",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:HiSeq3000",
             "@type": "rdfs:Class",
             "rdfs:comment": "Illumina HiSeq 3000",
@@ -10357,6 +10366,57 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:NextSeq550",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Illumina NextSeq 550",
+            "rdfs:label": "NextSeq550",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NextSeq 550",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NextSeq1000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Illumina NextSeq 1000",
+            "rdfs:label": "NextSeq1000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NextSeq 1000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NextSeq2000",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Illumina NextSeq 2000",
+            "rdfs:label": "NextSeq2000",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NextSeq 2000",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:HiSeq2000",
             "@type": "rdfs:Class",
             "rdfs:comment": "Illumina HiSeq 2000",
@@ -10404,23 +10464,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Zeiss LSM 980",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PsychChip",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PsychChip",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "PsychChip",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -10476,9 +10519,43 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:PacBioSequelIIeSystem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "PacBio Sequel IIe System",
+            "rdfs:label": "PacBioSequelIIeSystem",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PacBio Sequel IIe System",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PacBioSequelIISystem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "PacBio Sequel II System",
+            "rdfs:label": "PacBioSequelIISystem",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PacBio Sequel II System",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:GAIIx",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
+            "rdfs:comment": "Illumina Genome Analyzer IIx",
             "rdfs:label": "GAIIx",
             "rdfs:subClassOf": [
                 {
@@ -10680,6 +10757,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:NanostringGeoMx",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NanostringGeoMx",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NanostringGeoMx",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:LTQOrbitrapXL",
             "@type": "rdfs:Class",
             "rdfs:comment": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer",
@@ -10778,57 +10872,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "AffymetrixU133Plus2",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ConfocalImaging",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ConfocalImaging",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "confocalImaging",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IlluminaHumanHT-12V30R1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IlluminaHumanHT-12V30R1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "IlluminaHumanHT-12_V3_0_R1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SequenomMultiplex",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SequenomMultiplex",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "SequenomMultiplex",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11141,7 +11184,7 @@
         {
             "@id": "bts:ExperimentalCondition",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin).",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
             "rdfs:label": "ExperimentalCondition",
             "rdfs:subClassOf": [
                 {
@@ -11737,6 +11780,9 @@
                 },
                 {
                     "@id": "bts:Czi"
+                },
+                {
+                    "@id": "bts:MzML"
                 }
             ],
             "sms:displayName": "fileFormat",
@@ -13056,6 +13102,9 @@
                 },
                 {
                     "@id": "bts:Syn21452685"
+                },
+                {
+                    "@id": "bts:Syn23662493"
                 }
             ],
             "sms:displayName": "studyId",
@@ -13324,6 +13373,9 @@
                 },
                 {
                     "@id": "bts:NeurofibromatosisTherapeuticConsortium-UniversityofCaliforniaSanFranciso"
+                },
+                {
+                    "@id": "bts:DevelopinganImprovedmAbAgainstNeurofibromin"
                 }
             ],
             "sms:displayName": "studyName",
@@ -13530,20 +13582,109 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:FIA-MSMS",
+            "@id": "bts:PharmacokineticsAssay",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "FIA-MSMS",
+            "rdfs:comment": "A pharmacokinetics assay. ",
+            "rdfs:label": "PharmacokineticsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Assay"
+                    "@id": "bts:NF"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "FIA-MSMS",
-            "sms:required": "sms:false",
+            "sms:displayName": "pharmacokineticsAssay",
+            "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:StudyId"
+                },
+                {
+                    "@id": "bts:StudyName"
+                },
+                {
+                    "@id": "bts:FundingAgency"
+                },
+                {
+                    "@id": "bts:Consortium"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:AssayTarget"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                }
+            ],
             "sms:validationRules": []
         },
         {
@@ -13560,6 +13701,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "cell counts",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ConfocalImaging",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ConfocalImaging",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "confocalImaging",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -13713,6 +13871,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Nf1-OPG-Arg816",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ReadDepth",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ReadDepth",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:GenomicsAssay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "readDepth",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -15145,6 +15320,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Syn23662493",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Syn23662493",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:StudyId"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "syn23662493",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:3DModelsofCutaneousNeurofibromas",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -16552,6 +16744,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Neurofibromatosis Therapeutic Consortium - University of California San Franciso",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:DevelopinganImprovedmAbAgainstNeurofibromin",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "DevelopinganImprovedmAbAgainstNeurofibromin",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:StudyName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Developing an Improved mAb Against Neurofibromin",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
