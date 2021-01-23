@@ -9807,6 +9807,105 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:ProteinExtractSource",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Source of the extracted protein used in the experiment",
+            "rdfs:label": "ProteinExtractSource",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ExperimentalData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Celllysate"
+                },
+                {
+                    "@id": "bts:Nuclei"
+                },
+                {
+                    "@id": "bts:Mitochondria"
+                },
+                {
+                    "@id": "bts:Cytoplasm"
+                }
+            ],
+            "sms:displayName": "proteinExtractSource",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Celllysate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "a cell lysate is a material entity which is output of a cell lysis process",
+            "rdfs:label": "Celllysate",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cell lysate",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Nuclearextract",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Nuclear extracts contain proteins in nuclear compartment of the cell",
+            "rdfs:label": "Nuclearextract",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "nuclear extract",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Mitochondria",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Mitochondria only",
+            "rdfs:label": "Mitochondria",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "mitochondria",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cytoplasm",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "That portion of the cell contained within the plasma membrane but excluding the nucleus.",
+            "rdfs:label": "Cytoplasm",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cytoplasm",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:NucleicAcidSource",
             "@type": "rdfs:Class",
             "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
@@ -13536,10 +13635,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:MethylomicsAssay",
+            "@id": "bts:EpigeneticsAssay",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A methylomics assay. ",
-            "rdfs:label": "MethylomicsAssay",
+            "rdfs:comment": "An epigenetics assay. ",
+            "rdfs:label": "EpigeneticsAssay",
             "rdfs:subClassOf": [
                 {
                     "@id": "schema:Thing"
@@ -13548,7 +13647,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "methylomicsAssay",
+            "sms:displayName": "epigeneticsAssay",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
@@ -13561,9 +13660,6 @@
                     "@id": "bts:StudyName"
                 },
                 {
-                    "@id": "bts:ResourceType"
-                },
-                {
                     "@id": "bts:FundingAgency"
                 },
                 {
@@ -13573,10 +13669,79 @@
                     "@id": "bts:FileFormat"
                 },
                 {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
                     "@id": "bts:IndividualID"
                 },
                 {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
                     "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:AssayTarget"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                },
+                {
+                    "@id": "bts:Platform"
+                },
+                {
+                    "@id": "bts:ReadDepth"
                 }
             ],
             "sms:validationRules": []
@@ -13683,6 +13848,115 @@
                 },
                 {
                     "@id": "bts:TimePointUnit"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ProteomicsAssay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A proteomics assay.",
+            "rdfs:label": "ProteomicsAssay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "proteomicsAssay",
+            "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:StudyId"
+                },
+                {
+                    "@id": "bts:StudyName"
+                },
+                {
+                    "@id": "bts:FundingAgency"
+                },
+                {
+                    "@id": "bts:Consortium"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:ProteinExtractSource"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                },
+                {
+                    "@id": "bts:Platform"
                 }
             ],
             "sms:validationRules": []
@@ -13888,6 +14162,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "readDepth",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Nuclei",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Nuclei",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "nuclei",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
