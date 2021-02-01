@@ -2168,6 +2168,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Reportergeneassay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Reporter gene assay measures the gene expression from a reporter gene. The reporter gene is inserted under the control of a foreign promoter or an artificial regulatory element of interest. Reporters include luciferase, beta galactosidase, beta lactamase, chloramphenicol acetyl transferase, or a fluorescent protein.",
+            "rdfs:label": "Reportergeneassay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Assay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "reporter gene assay",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Electrochemiluminescence",
             "@type": "rdfs:Class",
             "rdfs:comment": "A method in which electromagnetic radiation, in the form of light emission, is generated from an electrochemical reaction in a solution.",
@@ -4792,244 +4809,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Synodos",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data derived from a CTF-Funded Synodos project",
-            "rdfs:label": "Synodos",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Synodos",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DHART-SPORE",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the D-HART SPORE",
-            "rdfs:label": "DHART-SPORE",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "DHART-SPORE",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CellCultureInitiative",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NTAP Cell Culture Initiative",
-            "rdfs:label": "CellCultureInitiative",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Cell Culture Initiative",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CNFInitiative",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NTAP cNF Initiative",
-            "rdfs:label": "CNFInitiative",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cNF Initiative",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:FrancisCollins",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NTAP Francis Collins Scholars studies",
-            "rdfs:label": "FrancisCollins",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Francis Collins",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GeneTherapyInitiative",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the GFF Gene Therapy Initative",
-            "rdfs:label": "GeneTherapyInitiative",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Gene Therapy Initiative",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Independent",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from a project not associated with an initative",
-            "rdfs:label": "Independent",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Independent",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:MPNSTPatient-DerivedModelCenters",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NFRI MPNST Patient-Derived Model Centers",
-            "rdfs:label": "MPNSTPatient-DerivedModelCenters",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "MPNST Patient-Derived Model Centers",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NFTC",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NTAP/CTF NF Therapeutic Consortium",
-            "rdfs:label": "NFTC",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NFTC",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NTAPOpenProposal",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NTAP Open Proposals Initiative",
-            "rdfs:label": "NTAPOpenProposal",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NTAP Open Proposal",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PatientReportedOutcomes",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the NTAP Patient Reported Outcomes Initiative",
-            "rdfs:label": "PatientReportedOutcomes",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Patient Reported Outcomes",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:VisionRestorationInitiative",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the GFF Vision Restoration Initiative",
-            "rdfs:label": "VisionRestorationInitiative",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Vision Restoration Initiative",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:YoungInvestigatorAward",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the CTF Young Investigator Award ",
-            "rdfs:label": "YoungInvestigatorAward",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Young Investigator Award",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DDI-RR",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Data from the CTF Drug Discovery - Registered Reports Initiative",
-            "rdfs:label": "DDI-RR",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Consortium"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "DDI-RR",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:CuratedDataType",
             "@type": "rdfs:Class",
             "rdfs:comment": "The type of information being curated.",
@@ -5714,37 +5493,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:ProjectNumber",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "There are four projects on going in the spore. This describes for which one the data was collected.",
-            "rdfs:label": "ProjectNumber",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Dhart"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Project1"
-                },
-                {
-                    "@id": "bts:Project2"
-                },
-                {
-                    "@id": "bts:Project3"
-                },
-                {
-                    "@id": "bts:Project4"
-                }
-            ],
-            "sms:displayName": "projectNumber",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Neurofibromatosis1",
             "@type": "rdfs:Class",
             "rdfs:comment": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
@@ -6282,6 +6030,9 @@
                 },
                 {
                     "@id": "bts:Cellcounts"
+                },
+                {
+                    "@id": "bts:Reportergeneassay"
                 }
             ],
             "sms:displayName": "assay",
@@ -7112,7 +6863,7 @@
         {
             "@id": "bts:SpecimenID",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A unique identifier (non-PII) that represents the specimen from which the data came. e.g. an ID that indicates a specific tumor specimen.",
+            "rdfs:comment": "A unique identifier (non-PII) that represents the specimen (sample) from which the data came. e.g. an ID that indicates a specific tumor specimen.",
             "rdfs:label": "SpecimenID",
             "rdfs:subClassOf": [
                 {
@@ -7158,6 +6909,71 @@
             },
             "sms:displayName": "assayTarget",
             "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ProteinExtractSource",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Source of the extracted protein used in the experiment",
+            "rdfs:label": "ProteinExtractSource",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ExperimentalData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Celllysate"
+                },
+                {
+                    "@id": "bts:Nuclei"
+                },
+                {
+                    "@id": "bts:Mitochondria"
+                },
+                {
+                    "@id": "bts:Cytoplasm"
+                }
+            ],
+            "sms:displayName": "proteinExtractSource",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ReporterGene",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A biological material (clone, oligo, etc.) on an array which will report on some biosequence or biosequences.",
+            "rdfs:label": "ReporterGene",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ExperimentalData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "reporterGene",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ReporterSubstance",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A gene which produces an easily assayed phenotype. Often used for expression studies of heterologous promoters.",
+            "rdfs:label": "ReporterSubstance",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ExperimentalData"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "reporterSubstance",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -8623,91 +8439,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:CTF",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Childrens' Tumor Foundation",
-            "rdfs:label": "CTF",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "CTF",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GFF",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Gilbert Family Foundation",
-            "rdfs:label": "GFF",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "GFF",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NIH-NCI",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "National Institutes of Health - National Cancer Institute",
-            "rdfs:label": "NIH-NCI",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NIH-NCI",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NTAP",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Neurofibromatosis Therapeutic Acceleration Program",
-            "rdfs:label": "NTAP",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NTAP",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NFRI",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Neurofibromatosis Reserach Initiative",
-            "rdfs:label": "NFRI",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:FundingAgency"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NFRI",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:RNAi",
             "@type": "rdfs:Class",
             "rdfs:comment": "High throughput sample analysis of RNAi molecules for potential application in gene knockdown or gene silencing of target genes",
@@ -9338,18 +9069,6 @@
                     "@id": "bts:Filename"
                 },
                 {
-                    "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
-                },
-                {
-                    "@id": "bts:FundingAgency"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
                     "@id": "bts:FileFormat"
                 },
                 {
@@ -9450,18 +9169,6 @@
                     "@id": "bts:Filename"
                 },
                 {
-                    "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
-                },
-                {
-                    "@id": "bts:FundingAgency"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
                     "@id": "bts:FileFormat"
                 },
                 {
@@ -9559,7 +9266,7 @@
         {
             "@id": "bts:IndividualID",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A unique identifier (non-PII) that represents the individual from which the data came. This could be a patient or animal ID. ",
+            "rdfs:comment": "A unique identifier (non-PII) that represents the individual (subject) from which the data came. This could be a patient or animal ID. ",
             "rdfs:label": "IndividualID",
             "rdfs:subClassOf": [
                 {
@@ -9571,6 +9278,397 @@
             },
             "sms:displayName": "individualID",
             "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:EpigeneticsAssay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An epigenetics assay. ",
+            "rdfs:label": "EpigeneticsAssay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "epigeneticsAssay",
+            "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:AssayTarget"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                },
+                {
+                    "@id": "bts:Platform"
+                },
+                {
+                    "@id": "bts:ReadDepth"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PharmacokineticsAssay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A pharmacokinetics assay. ",
+            "rdfs:label": "PharmacokineticsAssay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "pharmacokineticsAssay",
+            "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:AssayTarget"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ProteomicsAssay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A proteomics assay.",
+            "rdfs:label": "ProteomicsAssay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "proteomicsAssay",
+            "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:ProteinExtractSource"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                },
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PlateBasedReporterAssay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A plate based reporter assay. ",
+            "rdfs:label": "PlateBasedReporterAssay",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "plateBasedReporterAssay",
+            "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:FileFormat"
+                },
+                {
+                    "@id": "bts:ResourceType"
+                },
+                {
+                    "@id": "bts:DataType"
+                },
+                {
+                    "@id": "bts:DataSubtype"
+                },
+                {
+                    "@id": "bts:IndividualID"
+                },
+                {
+                    "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:Sex"
+                },
+                {
+                    "@id": "bts:Species"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                },
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:GenePerturbationType"
+                },
+                {
+                    "@id": "bts:GenePerturbationTechnology"
+                },
+                {
+                    "@id": "bts:GenePerturbed"
+                },
+                {
+                    "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:Tissue"
+                },
+                {
+                    "@id": "bts:Nf1Genotype"
+                },
+                {
+                    "@id": "bts:Nf2Genotype"
+                },
+                {
+                    "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:Assay"
+                },
+                {
+                    "@id": "bts:Platform"
+                },
+                {
+                    "@id": "bts:ReporterGene"
+                },
+                {
+                    "@id": "bts:ReporterSubstance"
+                },
+                {
+                    "@id": "bts:ExperimentalCondition"
+                },
+                {
+                    "@id": "bts:ExperimentalTimepoint"
+                },
+                {
+                    "@id": "bts:TimePointUnit"
+                }
+            ],
             "sms:validationRules": []
         },
         {
@@ -9906,105 +10004,6 @@
             ],
             "sms:displayName": "libraryPreparationMethod",
             "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ProteinExtractSource",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Source of the extracted protein used in the experiment",
-            "rdfs:label": "ProteinExtractSource",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ExperimentalData"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Celllysate"
-                },
-                {
-                    "@id": "bts:Nuclei"
-                },
-                {
-                    "@id": "bts:Mitochondria"
-                },
-                {
-                    "@id": "bts:Cytoplasm"
-                }
-            ],
-            "sms:displayName": "proteinExtractSource",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Celllysate",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "a cell lysate is a material entity which is output of a cell lysis process",
-            "rdfs:label": "Celllysate",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ProteinExtractSource"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cell lysate",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Nuclearextract",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Nuclear extracts contain proteins in nuclear compartment of the cell",
-            "rdfs:label": "Nuclearextract",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ProteinExtractSource"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "nuclear extract",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Mitochondria",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Mitochondria only",
-            "rdfs:label": "Mitochondria",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ProteinExtractSource"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "mitochondria",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Cytoplasm",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "That portion of the cell contained within the plasma membrane but excluding the nucleus.",
-            "rdfs:label": "Cytoplasm",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ProteinExtractSource"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "cytoplasm",
-            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -10720,40 +10719,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:PacBioSequelIIeSystem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "PacBio Sequel IIe System",
-            "rdfs:label": "PacBioSequelIIeSystem",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "PacBio Sequel IIe System",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PacBioSequelIISystem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "PacBio Sequel II System",
-            "rdfs:label": "PacBioSequelIISystem",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "PacBio Sequel II System",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:GAIIx",
             "@type": "rdfs:Class",
             "rdfs:comment": "Illumina Genome Analyzer IIx",
@@ -10958,23 +10923,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:NanostringGeoMx",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NanostringGeoMx",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NanostringGeoMx",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:LTQOrbitrapXL",
             "@type": "rdfs:Class",
             "rdfs:comment": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer",
@@ -11128,70 +11076,70 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Project1",
+            "@id": "bts:Celllysate",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The Plexiform NF project led",
-            "rdfs:label": "Project1",
+            "rdfs:comment": "a cell lysate is a material entity which is output of a cell lysis process",
+            "rdfs:label": "Celllysate",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProjectNumber"
+                    "@id": "bts:ProteinExtractSource"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Project 1",
+            "sms:displayName": "cell lysate",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Nuclearextract",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Nuclear extracts contain proteins in nuclear compartment of the cell",
+            "rdfs:label": "Nuclearextract",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "nuclear extract",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Project2",
+            "@id": "bts:Mitochondria",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The MPNST project",
-            "rdfs:label": "Project2",
+            "rdfs:comment": "Mitochondria only",
+            "rdfs:label": "Mitochondria",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProjectNumber"
+                    "@id": "bts:ProteinExtractSource"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Project 2",
+            "sms:displayName": "mitochondria",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Project3",
+            "@id": "bts:Cytoplasm",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The JMML project",
-            "rdfs:label": "Project3",
+            "rdfs:comment": "That portion of the cell contained within the plasma membrane but excluding the nucleus.",
+            "rdfs:label": "Cytoplasm",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:ProjectNumber"
+                    "@id": "bts:ProteinExtractSource"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Project 3",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Project4",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The NF1 survivor project",
-            "rdfs:label": "Project4",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ProjectNumber"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Project 4",
+            "sms:displayName": "cytoplasm",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11383,57 +11331,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:ExperimentalCondition",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
-            "rdfs:label": "ExperimentalCondition",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:SageCommunity"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "experimentalCondition",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExperimentalTimepoint",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The numeric value indicating the time elapsed from the beginning of the experiment at which the specimen was collected. Use in tandem with timePointUnit",
-            "rdfs:label": "ExperimentalTimepoint",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:SageCommunity"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "experimentalTimepoint",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GenePerturbed",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The HUGO gene symbol for the gene that is perturbed. ",
-            "rdfs:label": "GenePerturbed",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:SageCommunity"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "genePerturbed",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:ExperimentalData",
             "@type": "rdfs:Class",
             "rdfs:comment": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
@@ -11606,6 +11503,57 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:ExperimentalCondition",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
+            "rdfs:label": "ExperimentalCondition",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SageCommunity"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "experimentalCondition",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ExperimentalTimepoint",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The numeric value indicating the time elapsed from the beginning of the experiment at which the specimen was collected. Use in tandem with timePointUnit",
+            "rdfs:label": "ExperimentalTimepoint",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SageCommunity"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "experimentalTimepoint",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:GenePerturbed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The HUGO gene symbol for the gene that is perturbed. ",
+            "rdfs:label": "GenePerturbed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SageCommunity"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "genePerturbed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ResourceType",
             "@type": "rdfs:Class",
             "rdfs:comment": "The type of resource being stored and annotated",
@@ -11636,98 +11584,6 @@
                 }
             ],
             "sms:displayName": "resourceType",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:FundingAgency",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The organization providing financial support for generation of this data.",
-            "rdfs:label": "FundingAgency",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:SageCommunity"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:CTF"
-                },
-                {
-                    "@id": "bts:GFF"
-                },
-                {
-                    "@id": "bts:NIH-NCI"
-                },
-                {
-                    "@id": "bts:NTAP"
-                },
-                {
-                    "@id": "bts:NFRI"
-                }
-            ],
-            "sms:displayName": "fundingAgency",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Consortium",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The name of the consortium",
-            "rdfs:label": "Consortium",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:SageCommunity"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:CellCultureInitiative"
-                },
-                {
-                    "@id": "bts:CNFInitiative"
-                },
-                {
-                    "@id": "bts:DHART-SPORE"
-                },
-                {
-                    "@id": "bts:FrancisCollins"
-                },
-                {
-                    "@id": "bts:GeneTherapyInitiative"
-                },
-                {
-                    "@id": "bts:Independent"
-                },
-                {
-                    "@id": "bts:MPNSTPatient-DerivedModelCenters"
-                },
-                {
-                    "@id": "bts:NFTC"
-                },
-                {
-                    "@id": "bts:NTAPOpenProposal"
-                },
-                {
-                    "@id": "bts:PatientReportedOutcomes"
-                },
-                {
-                    "@id": "bts:Synodos"
-                },
-                {
-                    "@id": "bts:VisionRestorationInitiative"
-                },
-                {
-                    "@id": "bts:YoungInvestigatorAward"
-                }
-            ],
-            "sms:displayName": "consortium",
             "sms:required": "sms:true",
             "sms:validationRules": []
         },
@@ -13017,6 +12873,57 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:PacBioSequelIIeSystem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "PacBio Sequel IIe System",
+            "rdfs:label": "PacBioSequelIIeSystem",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PacBio Sequel IIe System",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:PacBioSequelIISystem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "PacBio Sequel II System",
+            "rdfs:label": "PacBioSequelIISystem",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "PacBio Sequel II System",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NanostringGeoMx",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "NanostringGeoMx",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NanostringGeoMx",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:NF",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -13037,565 +12944,8 @@
                 },
                 {
                     "@id": "bts:ResourceType"
-                },
-                {
-                    "@id": "bts:FundingAgency"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
-                    "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
                 }
             ],
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:StudyId",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The Synapse ID associated with the study (must match NF Data Portal study to be aggregated correctly).",
-            "rdfs:label": "StudyId",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:Syn11374354"
-                },
-                {
-                    "@id": "bts:Syn2343195"
-                },
-                {
-                    "@id": "bts:Syn4939902"
-                },
-                {
-                    "@id": "bts:Syn8016635"
-                },
-                {
-                    "@id": "bts:Syn4939896"
-                },
-                {
-                    "@id": "bts:Syn4939872"
-                },
-                {
-                    "@id": "bts:Syn4939878"
-                },
-                {
-                    "@id": "bts:Syn4939876"
-                },
-                {
-                    "@id": "bts:Syn11374333"
-                },
-                {
-                    "@id": "bts:Syn11374357"
-                },
-                {
-                    "@id": "bts:Syn4939880"
-                },
-                {
-                    "@id": "bts:Syn4939888"
-                },
-                {
-                    "@id": "bts:Syn4939906"
-                },
-                {
-                    "@id": "bts:Syn11374353"
-                },
-                {
-                    "@id": "bts:Syn11374339"
-                },
-                {
-                    "@id": "bts:Syn12051335"
-                },
-                {
-                    "@id": "bts:Syn4939894"
-                },
-                {
-                    "@id": "bts:Syn11374345"
-                },
-                {
-                    "@id": "bts:Syn11374341"
-                },
-                {
-                    "@id": "bts:Syn8016599"
-                },
-                {
-                    "@id": "bts:Syn4939892"
-                },
-                {
-                    "@id": "bts:Syn8012530"
-                },
-                {
-                    "@id": "bts:Syn4984604"
-                },
-                {
-                    "@id": "bts:Syn5610446"
-                },
-                {
-                    "@id": "bts:Syn5610425"
-                },
-                {
-                    "@id": "bts:Syn5714288"
-                },
-                {
-                    "@id": "bts:Syn5714289"
-                },
-                {
-                    "@id": "bts:Syn5714290"
-                },
-                {
-                    "@id": "bts:Syn5714423"
-                },
-                {
-                    "@id": "bts:Syn5698493"
-                },
-                {
-                    "@id": "bts:Syn6633069"
-                },
-                {
-                    "@id": "bts:Syn7217946"
-                },
-                {
-                    "@id": "bts:Syn11681835"
-                },
-                {
-                    "@id": "bts:Syn4939884"
-                },
-                {
-                    "@id": "bts:Syn4939890"
-                },
-                {
-                    "@id": "bts:Syn7217928"
-                },
-                {
-                    "@id": "bts:Syn7239560"
-                },
-                {
-                    "@id": "bts:Syn7217935"
-                },
-                {
-                    "@id": "bts:Syn4939874"
-                },
-                {
-                    "@id": "bts:Syn7239479"
-                },
-                {
-                    "@id": "bts:Syn4939918"
-                },
-                {
-                    "@id": "bts:Syn7231973"
-                },
-                {
-                    "@id": "bts:Syn11638893"
-                },
-                {
-                    "@id": "bts:Syn9727752"
-                },
-                {
-                    "@id": "bts:Syn4939914"
-                },
-                {
-                    "@id": "bts:Syn4939904"
-                },
-                {
-                    "@id": "bts:Syn4939916"
-                },
-                {
-                    "@id": "bts:Syn8016577"
-                },
-                {
-                    "@id": "bts:Syn11374337"
-                },
-                {
-                    "@id": "bts:Syn4939908"
-                },
-                {
-                    "@id": "bts:Syn4939910"
-                },
-                {
-                    "@id": "bts:Syn8012599"
-                },
-                {
-                    "@id": "bts:Syn11672851"
-                },
-                {
-                    "@id": "bts:Syn11817821"
-                },
-                {
-                    "@id": "bts:Syn4939912"
-                },
-                {
-                    "@id": "bts:Syn8016650"
-                },
-                {
-                    "@id": "bts:Syn11374349"
-                },
-                {
-                    "@id": "bts:Syn17098100"
-                },
-                {
-                    "@id": "bts:Syn17100988"
-                },
-                {
-                    "@id": "bts:Syn5562324"
-                },
-                {
-                    "@id": "bts:Syn18904024"
-                },
-                {
-                    "@id": "bts:Syn21641813"
-                },
-                {
-                    "@id": "bts:Syn21641872"
-                },
-                {
-                    "@id": "bts:Syn21641876"
-                },
-                {
-                    "@id": "bts:Syn21641931"
-                },
-                {
-                    "@id": "bts:Syn21641945"
-                },
-                {
-                    "@id": "bts:Syn21641955"
-                },
-                {
-                    "@id": "bts:Syn21642027"
-                },
-                {
-                    "@id": "bts:Syn21642010"
-                },
-                {
-                    "@id": "bts:Syn21641985"
-                },
-                {
-                    "@id": "bts:Syn21650326"
-                },
-                {
-                    "@id": "bts:Syn21650366"
-                },
-                {
-                    "@id": "bts:Syn21650395"
-                },
-                {
-                    "@id": "bts:Syn21650404"
-                },
-                {
-                    "@id": "bts:Syn21650464"
-                },
-                {
-                    "@id": "bts:Syn21650476"
-                },
-                {
-                    "@id": "bts:Syn21650480"
-                },
-                {
-                    "@id": "bts:Syn21650484"
-                },
-                {
-                    "@id": "bts:Syn21650488"
-                },
-                {
-                    "@id": "bts:Syn21650493"
-                },
-                {
-                    "@id": "bts:Syn21650499"
-                },
-                {
-                    "@id": "bts:Syn20613866"
-                },
-                {
-                    "@id": "bts:Syn21452685"
-                },
-                {
-                    "@id": "bts:Syn23662493"
-                }
-            ],
-            "sms:displayName": "studyId",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:StudyName",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The name of the study (must match NF Data Portal name to be aggregated correctly).",
-            "rdfs:label": "StudyName",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
-                {
-                    "@id": "bts:3DModelsofCutaneousNeurofibromas"
-                },
-                {
-                    "@id": "bts:SynodosNF2"
-                },
-                {
-                    "@id": "bts:ANerveSheathTumorBankfromPatientswithNF1"
-                },
-                {
-                    "@id": "bts:ARobustPlexiformNeurofibromaModelforPreclinicalDrugScreening"
-                },
-                {
-                    "@id": "bts:AcceptanceandCommitmentTherapyinNF1"
-                },
-                {
-                    "@id": "bts:CanTargetedTherapyPreventNeurofibromaGrowth"
-                },
-                {
-                    "@id": "bts:ChildNF1QualityofLifeMeasures"
-                },
-                {
-                    "@id": "bts:CombinationIndexValidationStudies"
-                },
-                {
-                    "@id": "bts:CutaneousNeurofibroma-Models,Biology,andTranslation"
-                },
-                {
-                    "@id": "bts:DeconstructionandReconstructionofNF1cNFs"
-                },
-                {
-                    "@id": "bts:DevelopmentofNeeds-basedQualityofLifePatientReportedOutcome"
-                },
-                {
-                    "@id": "bts:DevelopmentofPatientReportedOutcomesSystem"
-                },
-                {
-                    "@id": "bts:DrugScreeningofpNFCellLines"
-                },
-                {
-                    "@id": "bts:ExpressionofcNFsDuetoSchwannCell-FibroblastInteractions"
-                },
-                {
-                    "@id": "bts:GeneticStudiesofNeurofibromas"
-                },
-                {
-                    "@id": "bts:IdentifyingpreclinicalpredictorsofclinicalsuccessinNF1"
-                },
-                {
-                    "@id": "bts:ImagingBiomarkersofNeurofibromatosis"
-                },
-                {
-                    "@id": "bts:LeveragingiPSCstoDetermineImpactofNF1Mutations"
-                },
-                {
-                    "@id": "bts:MicroenvironmentalTargetsofCutaneousNeurofibromas"
-                },
-                {
-                    "@id": "bts:ModelingsignalingnetworksofNF1-deficientSchwanncellsandplexiformneurofibromas"
-                },
-                {
-                    "@id": "bts:NFGrowthandDrugResistancePathways"
-                },
-                {
-                    "@id": "bts:NF1DermalNeurofibromaLongitudinalNaturalHistoryStudyandSelumetinibClinicalTrial"
-                },
-                {
-                    "@id": "bts:CutaneousNeurofibromaDataResource"
-                },
-                {
-                    "@id": "bts:SynodosNF1PreclinicalModels(IowaSanfordExemplar)"
-                },
-                {
-                    "@id": "bts:SynodosNF1PreclinicalModels(MinnesotaCCHMCRecombinetics)"
-                },
-                {
-                    "@id": "bts:DHARTSPOREProject1-Molecular,Developmental,andGeneticEvaluationofPlexiformNeurofibromastoInformClinicalTrials"
-                },
-                {
-                    "@id": "bts:DHARTSPOREProject2-TargetedTherapiesforMalignantPeripheralNerveSheathTumors(MPNST)"
-                },
-                {
-                    "@id": "bts:DHARTSPOREProject3-AHighContentClinicalTrialoftheMEKInhibitorTrametinibinJuvenileMyelomonocyticLeukemia(JMML)"
-                },
-                {
-                    "@id": "bts:DHARTSPOREProject4-SubsequentMalignantNeoplasms(SMNs)AmongNF1CancerSurvivors."
-                },
-                {
-                    "@id": "bts:SynodosNF1LowGradeGlioma"
-                },
-                {
-                    "@id": "bts:ColumbiaUniversityNF1GliomaProject"
-                },
-                {
-                    "@id": "bts:NovelpNFFarmingSystem"
-                },
-                {
-                    "@id": "bts:NovelTherapeuticsinMalignantPeripheralNerveSheathTumor(MPNST)"
-                },
-                {
-                    "@id": "bts:NovelTreatmentApproachtoNeurofibromatosisType1-relatedMPNST"
-                },
-                {
-                    "@id": "bts:ExploringthePlexiformNeurofibromaInteractome"
-                },
-                {
-                    "@id": "bts:PlexiformNeurofibromaModelSystemsforPreclinicalDrugScreening"
-                },
-                {
-                    "@id": "bts:EvotecDrugTargetResearch"
-                },
-                {
-                    "@id": "bts:PNFCellCultureforHigh-ThroughputScreens"
-                },
-                {
-                    "@id": "bts:PNFCellLineCharacterizationStudies"
-                },
-                {
-                    "@id": "bts:PNFCellLineDevelopment"
-                },
-                {
-                    "@id": "bts:PNFCellOfOriginusingiPSCells"
-                },
-                {
-                    "@id": "bts:PNFiPSCs"
-                },
-                {
-                    "@id": "bts:PreclinicalNF1-MPNSTPlatformDevelopment"
-                },
-                {
-                    "@id": "bts:SynodosSchwannomatosis"
-                },
-                {
-                    "@id": "bts:PreventionandTreatmentofOpticPathwayGliomas"
-                },
-                {
-                    "@id": "bts:RegulationofGCPIIinNeurofibromas"
-                },
-                {
-                    "@id": "bts:ScreeningofPlexiformNeurofibroma3DModels"
-                },
-                {
-                    "@id": "bts:Searchofthemolecularmechanismssustainingplexiformneurofibromaformation"
-                },
-                {
-                    "@id": "bts:StudyingCellsofOriginUsingMouseModelsofCutaneousNF"
-                },
-                {
-                    "@id": "bts:SUZ12TumorStudy"
-                },
-                {
-                    "@id": "bts:TargetingthemechanismsunderlyingcutaneousneurofibromaformationinNF1"
-                },
-                {
-                    "@id": "bts:TestingthePharmacologicroleofMolecularTargetinhibitiononPlexiformNeurofibromas"
-                },
-                {
-                    "@id": "bts:Drug-TargetExplorer"
-                },
-                {
-                    "@id": "bts:NFCellLineCompoundScreens"
-                },
-                {
-                    "@id": "bts:TheDevelopmentandValidationofPROMeasurestoAssessPaininIndividualswithNF1andpNF"
-                },
-                {
-                    "@id": "bts:TRAPpingthemetabolicadaptationsofplexiformneurofibroma"
-                },
-                {
-                    "@id": "bts:TunableandReversibleNF1SchwannCellModel"
-                },
-                {
-                    "@id": "bts:Imagingpredictorsofmalignantperipheralnervesheathtumors"
-                },
-                {
-                    "@id": "bts:PilotStudyofFactorsImpactingMedicationAdherenceinChildren,Adolescents,andAdultswithNeurofibromatosisType1(NF1)onClinicalTreatmentTrials"
-                },
-                {
-                    "@id": "bts:Phenotypicscreeningofanti-NF2drugcandidatesinmerlin-deficientandnormalmouseSchwanncells"
-                },
-                {
-                    "@id": "bts:OpticaldopaminemonitoringwithdLight1revealsmesolimbicphenotypesinamousemodelofneurofibromatosistype1."
-                },
-                {
-                    "@id": "bts:ExploringNonsenseSuppressionasaTreatmentforNF1"
-                },
-                {
-                    "@id": "bts:GenomeEditingwithEngineeredVectorstoCorrectNeurofibromatosisTypeI"
-                },
-                {
-                    "@id": "bts:Ataluren-promotedtherapeuticnonsensesuppressionforneurofibromatosis"
-                },
-                {
-                    "@id": "bts:NF1GeneRescueinTranslationalAnimalModels"
-                },
-                {
-                    "@id": "bts:NF1RNARepairBasedonTherapeuticRibozymes"
-                },
-                {
-                    "@id": "bts:InvestigatingSyntheticLethalityAssociatedwithNF1Loss"
-                },
-                {
-                    "@id": "bts:DevelopmentofMutationSuppressionTherapyinaSwineModelofNF1"
-                },
-                {
-                    "@id": "bts:ExonskippingtotreatNeurofibromatosisType1(NF1)mutations"
-                },
-                {
-                    "@id": "bts:AAV,ZincFingerProteinandAntisenseOligonucleotideStrategiesforRestorationofNeurofibrominExpression"
-                },
-                {
-                    "@id": "bts:NeuroprotectionandopticnerveregenerationinamouseNF1OPGmodel"
-                },
-                {
-                    "@id": "bts:AxonregenerationandvisionrestorationinNF1OPG"
-                },
-                {
-                    "@id": "bts:OptimizingstrategiestoimprovevisualrecoveryfromNF1opticglioma"
-                },
-                {
-                    "@id": "bts:NewstrategiesofprotectingRGCsandpromotingopticnerveregeneration"
-                },
-                {
-                    "@id": "bts:StructuralandfunctionalrestorationofthevisualsysteminNF1"
-                },
-                {
-                    "@id": "bts:GenerationandneuroprotectivestudiesofNF1patient-derivedRGCs"
-                },
-                {
-                    "@id": "bts:RGCdifferentiationandtransplantationforNF1OPG"
-                },
-                {
-                    "@id": "bts:StemcellderivedRGCs-Improvingthesuccessoftransplantationstrategies"
-                },
-                {
-                    "@id": "bts:Humanstemcell-derivedRGCsforopticnerveregeneration"
-                },
-                {
-                    "@id": "bts:Retinaregenerationinzebrafish-EndogenousRGCreplacement"
-                },
-                {
-                    "@id": "bts:Factorsthatpromoteganglioncellregeneration"
-                },
-                {
-                    "@id": "bts:NeurofibromatosisTherapeuticConsortium-BrighamandWomens"
-                },
-                {
-                    "@id": "bts:NeurofibromatosisTherapeuticConsortium-UniversityofCaliforniaSanFranciso"
-                },
-                {
-                    "@id": "bts:DevelopinganImprovedmAbAgainstNeurofibromin"
-                },
-                {
-                    "@id": "bts:TheroleofGABAintheworkingmemoryimpairmentsinNeurofibromatosisType1"
-                }
-            ],
-            "sms:displayName": "studyName",
-            "sms:required": "sms:true",
             "sms:validationRules": []
         },
         {
@@ -13684,23 +13034,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Dhart",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Dhart",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "dhart",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Array",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -13749,333 +13082,6 @@
             },
             "sms:displayName": "ngs",
             "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:EpigeneticsAssay",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An epigenetics assay. ",
-            "rdfs:label": "EpigeneticsAssay",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "schema:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "epigeneticsAssay",
-            "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Filename"
-                },
-                {
-                    "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
-                },
-                {
-                    "@id": "bts:FundingAgency"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
-                    "@id": "bts:FileFormat"
-                },
-                {
-                    "@id": "bts:ResourceType"
-                },
-                {
-                    "@id": "bts:DataType"
-                },
-                {
-                    "@id": "bts:DataSubtype"
-                },
-                {
-                    "@id": "bts:Assay"
-                },
-                {
-                    "@id": "bts:IndividualID"
-                },
-                {
-                    "@id": "bts:Sex"
-                },
-                {
-                    "@id": "bts:Species"
-                },
-                {
-                    "@id": "bts:ModelSystemName"
-                },
-                {
-                    "@id": "bts:ModelSystemStrainNomenclature"
-                },
-                {
-                    "@id": "bts:GenePerturbationType"
-                },
-                {
-                    "@id": "bts:GenePerturbationTechnology"
-                },
-                {
-                    "@id": "bts:GenePerturbed"
-                },
-                {
-                    "@id": "bts:Diagnosis"
-                },
-                {
-                    "@id": "bts:SpecimenID"
-                },
-                {
-                    "@id": "bts:Tissue"
-                },
-                {
-                    "@id": "bts:Nf1Genotype"
-                },
-                {
-                    "@id": "bts:Nf2Genotype"
-                },
-                {
-                    "@id": "bts:IsCellLine"
-                },
-                {
-                    "@id": "bts:TumorType"
-                },
-                {
-                    "@id": "bts:AssayTarget"
-                },
-                {
-                    "@id": "bts:ExperimentalCondition"
-                },
-                {
-                    "@id": "bts:ExperimentalTimepoint"
-                },
-                {
-                    "@id": "bts:TimePointUnit"
-                },
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadDepth"
-                }
-            ],
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PharmacokineticsAssay",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A pharmacokinetics assay. ",
-            "rdfs:label": "PharmacokineticsAssay",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:NF"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "pharmacokineticsAssay",
-            "sms:required": "sms:true",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Filename"
-                },
-                {
-                    "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
-                },
-                {
-                    "@id": "bts:FundingAgency"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
-                    "@id": "bts:FileFormat"
-                },
-                {
-                    "@id": "bts:ResourceType"
-                },
-                {
-                    "@id": "bts:DataType"
-                },
-                {
-                    "@id": "bts:DataSubtype"
-                },
-                {
-                    "@id": "bts:Assay"
-                },
-                {
-                    "@id": "bts:IndividualID"
-                },
-                {
-                    "@id": "bts:Sex"
-                },
-                {
-                    "@id": "bts:Species"
-                },
-                {
-                    "@id": "bts:ModelSystemName"
-                },
-                {
-                    "@id": "bts:ModelSystemStrainNomenclature"
-                },
-                {
-                    "@id": "bts:GenePerturbationType"
-                },
-                {
-                    "@id": "bts:GenePerturbationTechnology"
-                },
-                {
-                    "@id": "bts:GenePerturbed"
-                },
-                {
-                    "@id": "bts:Diagnosis"
-                },
-                {
-                    "@id": "bts:SpecimenID"
-                },
-                {
-                    "@id": "bts:Tissue"
-                },
-                {
-                    "@id": "bts:Nf1Genotype"
-                },
-                {
-                    "@id": "bts:Nf2Genotype"
-                },
-                {
-                    "@id": "bts:IsCellLine"
-                },
-                {
-                    "@id": "bts:TumorType"
-                },
-                {
-                    "@id": "bts:AssayTarget"
-                },
-                {
-                    "@id": "bts:ExperimentalCondition"
-                },
-                {
-                    "@id": "bts:ExperimentalTimepoint"
-                },
-                {
-                    "@id": "bts:TimePointUnit"
-                }
-            ],
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ProteomicsAssay",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A proteomics assay.",
-            "rdfs:label": "ProteomicsAssay",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:NF"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "proteomicsAssay",
-            "sms:required": "sms:true",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Filename"
-                },
-                {
-                    "@id": "bts:StudyId"
-                },
-                {
-                    "@id": "bts:StudyName"
-                },
-                {
-                    "@id": "bts:FundingAgency"
-                },
-                {
-                    "@id": "bts:Consortium"
-                },
-                {
-                    "@id": "bts:FileFormat"
-                },
-                {
-                    "@id": "bts:ResourceType"
-                },
-                {
-                    "@id": "bts:DataType"
-                },
-                {
-                    "@id": "bts:DataSubtype"
-                },
-                {
-                    "@id": "bts:Assay"
-                },
-                {
-                    "@id": "bts:IndividualID"
-                },
-                {
-                    "@id": "bts:Sex"
-                },
-                {
-                    "@id": "bts:Species"
-                },
-                {
-                    "@id": "bts:ModelSystemName"
-                },
-                {
-                    "@id": "bts:ModelSystemStrainNomenclature"
-                },
-                {
-                    "@id": "bts:GenePerturbationType"
-                },
-                {
-                    "@id": "bts:GenePerturbationTechnology"
-                },
-                {
-                    "@id": "bts:GenePerturbed"
-                },
-                {
-                    "@id": "bts:Diagnosis"
-                },
-                {
-                    "@id": "bts:SpecimenID"
-                },
-                {
-                    "@id": "bts:ProteinExtractSource"
-                },
-                {
-                    "@id": "bts:Tissue"
-                },
-                {
-                    "@id": "bts:Nf1Genotype"
-                },
-                {
-                    "@id": "bts:Nf2Genotype"
-                },
-                {
-                    "@id": "bts:IsCellLine"
-                },
-                {
-                    "@id": "bts:TumorType"
-                },
-                {
-                    "@id": "bts:ExperimentalCondition"
-                },
-                {
-                    "@id": "bts:ExperimentalTimepoint"
-                },
-                {
-                    "@id": "bts:TimePointUnit"
-                },
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -14143,6 +13149,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "No",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Nuclei",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Nuclei",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ProteinExtractSource"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "nuclei",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -14283,23 +13306,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Nuclei",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Nuclei",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ProteinExtractSource"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "nuclei",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:TransplantationRecipientTissue",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -14313,2879 +13319,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "transplantationRecipientTissue",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374354",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374354",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374354",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn2343195",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn2343195",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn2343195",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939902",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939902",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939902",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn8016635",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn8016635",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn8016635",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939896",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939896",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939896",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939872",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939872",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939872",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939878",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939878",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939878",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939876",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939876",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939876",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374333",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374333",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374333",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374357",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374357",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374357",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939880",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939880",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939880",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939888",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939888",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939888",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939906",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939906",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939906",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374353",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374353",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374353",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374339",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374339",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374339",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn12051335",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn12051335",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn12051335",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939894",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939894",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939894",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374345",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374345",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374345",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374341",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374341",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374341",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn8016599",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn8016599",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn8016599",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939892",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939892",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939892",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn8012530",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn8012530",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn8012530",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4984604",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4984604",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4984604",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5610446",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5610446",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5610446",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5610425",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5610425",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5610425",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5714288",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5714288",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5714288",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5714289",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5714289",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5714289",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5714290",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5714290",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5714290",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5714423",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5714423",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5714423",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5698493",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5698493",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5698493",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn6633069",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn6633069",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn6633069",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn7217946",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn7217946",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn7217946",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11681835",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11681835",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11681835",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939884",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939884",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939884",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939890",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939890",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939890",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn7217928",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn7217928",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn7217928",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn7239560",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn7239560",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn7239560",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn7217935",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn7217935",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn7217935",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939874",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939874",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939874",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn7239479",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn7239479",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn7239479",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939918",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939918",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939918",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn7231973",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn7231973",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn7231973",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11638893",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11638893",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11638893",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn9727752",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn9727752",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn9727752",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939914",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939914",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939914",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939904",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939904",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939904",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939916",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939916",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939916",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn8016577",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn8016577",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn8016577",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374337",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374337",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374337",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939908",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939908",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939908",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939910",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939910",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939910",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn8012599",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn8012599",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn8012599",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11672851",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11672851",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11672851",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11817821",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11817821",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11817821",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn4939912",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn4939912",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn4939912",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn8016650",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn8016650",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn8016650",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn11374349",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn11374349",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn11374349",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn17098100",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn17098100",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn17098100",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn17100988",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn17100988",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn17100988",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn5562324",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn5562324",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn5562324",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn18904024",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn18904024",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn18904024",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641813",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641813",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641813",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641872",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641872",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641872",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641876",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641876",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641876",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641931",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641931",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641931",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641945",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641945",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641945",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641955",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641955",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641955",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21642027",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21642027",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21642027",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21642010",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21642010",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21642010",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21641985",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21641985",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21641985",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650326",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650326",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650326",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650366",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650366",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650366",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650395",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650395",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650395",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650404",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650404",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650404",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650464",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650464",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650464",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650476",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650476",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650476",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650480",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650480",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650480",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650484",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650484",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650484",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650488",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650488",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650488",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650493",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650493",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650493",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21650499",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21650499",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21650499",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn20613866",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn20613866",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn20613866",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn21452685",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn21452685",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn21452685",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Syn23662493",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Syn23662493",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyId"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "syn23662493",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:3DModelsofCutaneousNeurofibromas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "3DModelsofCutaneousNeurofibromas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "3D Models of Cutaneous Neurofibromas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SynodosNF2",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SynodosNF2",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Synodos NF2",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ANerveSheathTumorBankfromPatientswithNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ANerveSheathTumorBankfromPatientswithNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "A Nerve Sheath Tumor Bank from Patients with NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ARobustPlexiformNeurofibromaModelforPreclinicalDrugScreening",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ARobustPlexiformNeurofibromaModelforPreclinicalDrugScreening",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "A Robust Plexiform Neurofibroma Model for Preclinical Drug Screening",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:AcceptanceandCommitmentTherapyinNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "AcceptanceandCommitmentTherapyinNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Acceptance and Commitment Therapy in NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CanTargetedTherapyPreventNeurofibromaGrowth",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "CanTargetedTherapyPreventNeurofibromaGrowth",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Can Targeted Therapy Prevent Neurofibroma Growth",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ChildNF1QualityofLifeMeasures",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ChildNF1QualityofLifeMeasures",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Child NF1 Quality of Life Measures",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CombinationIndexValidationStudies",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "CombinationIndexValidationStudies",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Combination Index Validation Studies",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CutaneousNeurofibroma-Models,Biology,andTranslation",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "CutaneousNeurofibroma-Models,Biology,andTranslation",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Cutaneous Neurofibroma - Models, Biology, and Translation",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DeconstructionandReconstructionofNF1cNFs",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DeconstructionandReconstructionofNF1cNFs",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Deconstruction and Reconstruction of NF1 cNFs",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DevelopmentofNeeds-basedQualityofLifePatientReportedOutcome",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DevelopmentofNeeds-basedQualityofLifePatientReportedOutcome",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Development of Needs-based Quality of Life Patient Reported Outcome",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DevelopmentofPatientReportedOutcomesSystem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DevelopmentofPatientReportedOutcomesSystem",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Development of Patient Reported Outcomes System",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DrugScreeningofpNFCellLines",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DrugScreeningofpNFCellLines",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Drug Screening of pNF Cell Lines",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExpressionofcNFsDuetoSchwannCell-FibroblastInteractions",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ExpressionofcNFsDuetoSchwannCell-FibroblastInteractions",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Expression of cNFs Due to Schwann Cell-Fibroblast Interactions",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GeneticStudiesofNeurofibromas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "GeneticStudiesofNeurofibromas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Genetic Studies of Neurofibromas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IdentifyingpreclinicalpredictorsofclinicalsuccessinNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IdentifyingpreclinicalpredictorsofclinicalsuccessinNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Identifying preclinical predictors of clinical success in NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ImagingBiomarkersofNeurofibromatosis",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ImagingBiomarkersofNeurofibromatosis",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Imaging Biomarkers of Neurofibromatosis",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:LeveragingiPSCstoDetermineImpactofNF1Mutations",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "LeveragingiPSCstoDetermineImpactofNF1Mutations",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Leveraging iPSCs to Determine Impact of NF1 Mutations",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:MicroenvironmentalTargetsofCutaneousNeurofibromas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "MicroenvironmentalTargetsofCutaneousNeurofibromas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Microenvironmental Targets of Cutaneous Neurofibromas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ModelingsignalingnetworksofNF1-deficientSchwanncellsandplexiformneurofibromas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ModelingsignalingnetworksofNF1-deficientSchwanncellsandplexiformneurofibromas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Modeling signaling networks of NF1-deficient Schwann cells and plexiform neurofibromas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NFGrowthandDrugResistancePathways",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NFGrowthandDrugResistancePathways",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NF Growth and Drug Resistance Pathways",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NF1DermalNeurofibromaLongitudinalNaturalHistoryStudyandSelumetinibClinicalTrial",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NF1DermalNeurofibromaLongitudinalNaturalHistoryStudyandSelumetinibClinicalTrial",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NF1 Dermal Neurofibroma Longitudinal Natural History Study and Selumetinib Clinical Trial",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:CutaneousNeurofibromaDataResource",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "CutaneousNeurofibromaDataResource",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Cutaneous Neurofibroma Data Resource",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SynodosNF1PreclinicalModels(IowaSanfordExemplar)",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SynodosNF1PreclinicalModels(IowaSanfordExemplar)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Synodos NF1 Preclinical Models (Iowa Sanford Exemplar)",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SynodosNF1PreclinicalModels(MinnesotaCCHMCRecombinetics)",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SynodosNF1PreclinicalModels(MinnesotaCCHMCRecombinetics)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Synodos NF1 Preclinical Models (Minnesota CCHMC Recombinetics)",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DHARTSPOREProject1-Molecular,Developmental,andGeneticEvaluationofPlexiformNeurofibromastoInformClinicalTrials",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DHARTSPOREProject1-Molecular,Developmental,andGeneticEvaluationofPlexiformNeurofibromastoInformClinicalTrials",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "DHART SPORE Project 1 - Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DHARTSPOREProject2-TargetedTherapiesforMalignantPeripheralNerveSheathTumors(MPNST)",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DHARTSPOREProject2-TargetedTherapiesforMalignantPeripheralNerveSheathTumors(MPNST)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "DHART SPORE Project 2 - Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST)",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DHARTSPOREProject3-AHighContentClinicalTrialoftheMEKInhibitorTrametinibinJuvenileMyelomonocyticLeukemia(JMML)",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DHARTSPOREProject3-AHighContentClinicalTrialoftheMEKInhibitorTrametinibinJuvenileMyelomonocyticLeukemia(JMML)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "DHART SPORE Project 3 - A High Content Clinical Trial of the MEK Inhibitor Trametinib in Juvenile Myelomonocytic Leukemia (JMML)",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DHARTSPOREProject4-SubsequentMalignantNeoplasms(SMNs)AmongNF1CancerSurvivors.",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DHARTSPOREProject4-SubsequentMalignantNeoplasms(SMNs)AmongNF1CancerSurvivors.",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "DHART SPORE Project 4 - Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SynodosNF1LowGradeGlioma",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SynodosNF1LowGradeGlioma",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Synodos NF1 Low Grade Glioma",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ColumbiaUniversityNF1GliomaProject",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ColumbiaUniversityNF1GliomaProject",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Columbia University NF1 Glioma Project",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NovelpNFFarmingSystem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NovelpNFFarmingSystem",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Novel pNF Farming System",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NovelTherapeuticsinMalignantPeripheralNerveSheathTumor(MPNST)",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NovelTherapeuticsinMalignantPeripheralNerveSheathTumor(MPNST)",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Novel Therapeutics in Malignant Peripheral Nerve Sheath Tumor (MPNST)",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NovelTreatmentApproachtoNeurofibromatosisType1-relatedMPNST",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NovelTreatmentApproachtoNeurofibromatosisType1-relatedMPNST",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Novel Treatment Approach to Neurofibromatosis Type 1-related MPNST",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExploringthePlexiformNeurofibromaInteractome",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ExploringthePlexiformNeurofibromaInteractome",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Exploring the Plexiform Neurofibroma Interactome",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PlexiformNeurofibromaModelSystemsforPreclinicalDrugScreening",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PlexiformNeurofibromaModelSystemsforPreclinicalDrugScreening",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Plexiform Neurofibroma Model Systems for Preclinical Drug Screening",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:EvotecDrugTargetResearch",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "EvotecDrugTargetResearch",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Evotec Drug Target Research",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PNFCellCultureforHigh-ThroughputScreens",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PNFCellCultureforHigh-ThroughputScreens",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "pNF Cell Culture for High-Throughput Screens",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PNFCellLineCharacterizationStudies",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PNFCellLineCharacterizationStudies",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "pNF Cell Line Characterization Studies",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PNFCellLineDevelopment",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PNFCellLineDevelopment",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "pNF Cell Line Development",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PNFCellOfOriginusingiPSCells",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PNFCellOfOriginusingiPSCells",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "pNF Cell Of Origin using iPS Cells",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PNFiPSCs",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PNFiPSCs",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "pNF iPSCs",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PreclinicalNF1-MPNSTPlatformDevelopment",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PreclinicalNF1-MPNSTPlatformDevelopment",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Preclinical NF1-MPNST Platform Development",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SynodosSchwannomatosis",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SynodosSchwannomatosis",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Synodos Schwannomatosis",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PreventionandTreatmentofOpticPathwayGliomas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PreventionandTreatmentofOpticPathwayGliomas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Prevention and Treatment of Optic Pathway Gliomas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:RegulationofGCPIIinNeurofibromas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "RegulationofGCPIIinNeurofibromas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Regulation of GCPII in Neurofibromas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ScreeningofPlexiformNeurofibroma3DModels",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ScreeningofPlexiformNeurofibroma3DModels",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Screening of Plexiform Neurofibroma 3D Models",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Searchofthemolecularmechanismssustainingplexiformneurofibromaformation",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Searchofthemolecularmechanismssustainingplexiformneurofibromaformation",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Search of the molecular mechanisms sustaining plexiform neurofibroma formation",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:StudyingCellsofOriginUsingMouseModelsofCutaneousNF",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "StudyingCellsofOriginUsingMouseModelsofCutaneousNF",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Studying Cells of Origin Using Mouse Models of Cutaneous NF",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:SUZ12TumorStudy",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "SUZ12TumorStudy",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "SUZ12 Tumor Study",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TargetingthemechanismsunderlyingcutaneousneurofibromaformationinNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TargetingthemechanismsunderlyingcutaneousneurofibromaformationinNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TestingthePharmacologicroleofMolecularTargetinhibitiononPlexiformNeurofibromas",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TestingthePharmacologicroleofMolecularTargetinhibitiononPlexiformNeurofibromas",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Testing the Pharmacologic role of Molecular Target inhibition on Plexiform Neurofibromas",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Drug-TargetExplorer",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Drug-TargetExplorer",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Drug-Target Explorer",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NFCellLineCompoundScreens",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NFCellLineCompoundScreens",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NF Cell Line Compound Screens",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TheDevelopmentandValidationofPROMeasurestoAssessPaininIndividualswithNF1andpNF",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TheDevelopmentandValidationofPROMeasurestoAssessPaininIndividualswithNF1andpNF",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "The Development and Validation of PRO Measures to Assess Pain in Individuals with NF1 and pNF",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TRAPpingthemetabolicadaptationsofplexiformneurofibroma",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TRAPpingthemetabolicadaptationsofplexiformneurofibroma",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "TRAPping the metabolic adaptations of plexiform neurofibroma",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TunableandReversibleNF1SchwannCellModel",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TunableandReversibleNF1SchwannCellModel",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Tunable and Reversible NF1 Schwann Cell Model",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Imagingpredictorsofmalignantperipheralnervesheathtumors",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Imagingpredictorsofmalignantperipheralnervesheathtumors",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Imaging predictors of malignant peripheral nerve sheath tumors",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:PilotStudyofFactorsImpactingMedicationAdherenceinChildren,Adolescents,andAdultswithNeurofibromatosisType1(NF1)onClinicalTreatmentTrials",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "PilotStudyofFactorsImpactingMedicationAdherenceinChildren,Adolescents,andAdultswithNeurofibromatosisType1(NF1)onClinicalTreatmentTrials",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Pilot Study of Factors Impacting Medication Adherence in Children, Adolescents, and Adults with Neurofibromatosis Type 1 (NF1) on Clinical Treatment Trials",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Phenotypicscreeningofanti-NF2drugcandidatesinmerlin-deficientandnormalmouseSchwanncells",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Phenotypicscreeningofanti-NF2drugcandidatesinmerlin-deficientandnormalmouseSchwanncells",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Phenotypic screening of anti-NF2 drug candidates in merlin-deficient and normal mouse Schwann cells",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:OpticaldopaminemonitoringwithdLight1revealsmesolimbicphenotypesinamousemodelofneurofibromatosistype1.",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "OpticaldopaminemonitoringwithdLight1revealsmesolimbicphenotypesinamousemodelofneurofibromatosistype1.",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Optical dopamine monitoring with dLight1 reveals mesolimbic phenotypes in a mouse model of neurofibromatosis type 1.",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExploringNonsenseSuppressionasaTreatmentforNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ExploringNonsenseSuppressionasaTreatmentforNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Exploring Nonsense Suppression as a Treatment for NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GenomeEditingwithEngineeredVectorstoCorrectNeurofibromatosisTypeI",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "GenomeEditingwithEngineeredVectorstoCorrectNeurofibromatosisTypeI",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Genome Editing with Engineered Vectors to Correct Neurofibromatosis Type I",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Ataluren-promotedtherapeuticnonsensesuppressionforneurofibromatosis",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Ataluren-promotedtherapeuticnonsensesuppressionforneurofibromatosis",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Ataluren-promoted therapeutic nonsense suppression for neurofibromatosis",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NF1GeneRescueinTranslationalAnimalModels",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NF1GeneRescueinTranslationalAnimalModels",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NF1 Gene Rescue in Translational Animal Models",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NF1RNARepairBasedonTherapeuticRibozymes",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NF1RNARepairBasedonTherapeuticRibozymes",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "NF1 RNA Repair Based on Therapeutic Ribozymes",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:InvestigatingSyntheticLethalityAssociatedwithNF1Loss",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "InvestigatingSyntheticLethalityAssociatedwithNF1Loss",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Investigating Synthetic Lethality Associated with NF1 Loss",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DevelopmentofMutationSuppressionTherapyinaSwineModelofNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DevelopmentofMutationSuppressionTherapyinaSwineModelofNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Development of Mutation Suppression Therapy in a Swine Model of NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ExonskippingtotreatNeurofibromatosisType1(NF1)mutations",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "ExonskippingtotreatNeurofibromatosisType1(NF1)mutations",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Exon skipping to treat Neurofibromatosis Type 1 (NF1) mutations",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:AAV,ZincFingerProteinandAntisenseOligonucleotideStrategiesforRestorationofNeurofibrominExpression",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "AAV,ZincFingerProteinandAntisenseOligonucleotideStrategiesforRestorationofNeurofibrominExpression",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "AAV, Zinc Finger Protein and Antisense Oligonucleotide Strategies for Restoration of Neurofibromin Expression",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NeuroprotectionandopticnerveregenerationinamouseNF1OPGmodel",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NeuroprotectionandopticnerveregenerationinamouseNF1OPGmodel",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:AxonregenerationandvisionrestorationinNF1OPG",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "AxonregenerationandvisionrestorationinNF1OPG",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Axon regeneration and vision restoration in NF1 OPG",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:OptimizingstrategiestoimprovevisualrecoveryfromNF1opticglioma",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "OptimizingstrategiestoimprovevisualrecoveryfromNF1opticglioma",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Optimizing strategies to improve visual recovery from NF1 optic glioma",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NewstrategiesofprotectingRGCsandpromotingopticnerveregeneration",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NewstrategiesofprotectingRGCsandpromotingopticnerveregeneration",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "New strategies of protecting RGCs and promoting optic nerve regeneration",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:StructuralandfunctionalrestorationofthevisualsysteminNF1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "StructuralandfunctionalrestorationofthevisualsysteminNF1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Structural and functional restoration of the visual system in NF1",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:GenerationandneuroprotectivestudiesofNF1patient-derivedRGCs",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "GenerationandneuroprotectivestudiesofNF1patient-derivedRGCs",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Generation and neuroprotective studies of NF1 patient-derived RGCs",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:RGCdifferentiationandtransplantationforNF1OPG",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "RGCdifferentiationandtransplantationforNF1OPG",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "RGC differentiation and transplantation for NF1 OPG",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:StemcellderivedRGCs-Improvingthesuccessoftransplantationstrategies",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "StemcellderivedRGCs-Improvingthesuccessoftransplantationstrategies",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Stem cell derived RGCs - Improving the success of transplantation strategies",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Humanstemcell-derivedRGCsforopticnerveregeneration",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Humanstemcell-derivedRGCsforopticnerveregeneration",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Human stem cell-derived RGCs for optic nerve regeneration",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Retinaregenerationinzebrafish-EndogenousRGCreplacement",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Retinaregenerationinzebrafish-EndogenousRGCreplacement",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Retina regeneration in zebrafish-Endogenous RGC replacement",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Factorsthatpromoteganglioncellregeneration",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Factorsthatpromoteganglioncellregeneration",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Factors that promote ganglion cell regeneration",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NeurofibromatosisTherapeuticConsortium-BrighamandWomens",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NeurofibromatosisTherapeuticConsortium-BrighamandWomens",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Neurofibromatosis Therapeutic Consortium - Brigham and Womens",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NeurofibromatosisTherapeuticConsortium-UniversityofCaliforniaSanFranciso",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "NeurofibromatosisTherapeuticConsortium-UniversityofCaliforniaSanFranciso",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Neurofibromatosis Therapeutic Consortium - University of California San Franciso",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:DevelopinganImprovedmAbAgainstNeurofibromin",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "DevelopinganImprovedmAbAgainstNeurofibromin",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Developing an Improved mAb Against Neurofibromin",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:TheroleofGABAintheworkingmemoryimpairmentsinNeurofibromatosisType1",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "TheroleofGABAintheworkingmemoryimpairmentsinNeurofibromatosisType1",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:StudyName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "The role of GABA in the working memory impairments in Neurofibromatosis Type 1",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
