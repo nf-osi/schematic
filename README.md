@@ -4,6 +4,16 @@ This pipeline is setup on both the staging and production NF data curator apps, 
 
 ## Usage
 
+_Note: It is assumed that you are running all the below commands from the main/root (`schematic`) directory._
+
+Clone this branch of the git repository 
+
+```
+git clone --single-branch --branch main https://github.com/Sage-Bionetworks/schematic.git
+```
+
+Navigate into the `schematic` directory and run the command as below:
+
 ### Data Curator App Setup (backend)
 
 Clone this repository. 
@@ -59,12 +69,16 @@ _Note: You can get your Synapse API key by: **logging into Synapse > Settings > 
 ### Contribution
 
 Clone a copy of the NF repository here:
-      
-      git clone --single-branch --branch develop https://github.com/nf-osi/schematic.git
+```bash  
+git clone --single-branch --branch develop https://github.com/nf-osi/schematic.git
+```
    
  or the original (core) repository here:
  
-       git clone --single-branch --branch develop https://github.com/Sage-Bionetworks/schematic.git
+```bash
+git clone --single-branch --branch develop https://github.com/Sage-Bionetworks/schematic.git
+```
+
 
 Modify your files, add them to the staging area, use a descriptive commit message and push to the same branch as a pull request for review.
 
