@@ -438,7 +438,7 @@ class SynapseStorage(object):
                 if useSchemaLabel:
                     keySyn = se.get_class_label_from_display_name(str(k))
                 else:
-                    keySyn = str(k)
+                    keySyn = k
 
                 metadataSyn[keySyn] = v
 
