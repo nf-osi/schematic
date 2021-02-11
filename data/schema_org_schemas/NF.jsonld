@@ -2301,11 +2301,6 @@
             },
             "sms:displayName": "immunohistochemistry",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2323,11 +2318,6 @@
             },
             "sms:displayName": "NOMe-Seq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2345,11 +2335,6 @@
             },
             "sms:displayName": "FIA-MSMS",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2367,11 +2352,6 @@
             },
             "sms:displayName": "UPLC-MSMS",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2389,11 +2369,6 @@
             },
             "sms:displayName": "HPLC-MSMS",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2428,32 +2403,6 @@
             },
             "sms:displayName": "rnaSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2471,32 +2420,6 @@
             },
             "sms:displayName": "mirnaSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2514,11 +2437,6 @@
             },
             "sms:displayName": "LC-MSMS",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2570,32 +2488,6 @@
             },
             "sms:displayName": "exomeSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2613,32 +2505,6 @@
             },
             "sms:displayName": "Sanger sequencing",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2657,9 +2523,6 @@
             "sms:displayName": "ChIPSeq",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                },
                 {
                     "@id": "bts:AssayTarget"
                 }
@@ -2681,14 +2544,6 @@
             },
             "sms:displayName": "rnaArray",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2706,11 +2561,6 @@
             },
             "sms:displayName": "snpArray",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2745,14 +2595,6 @@
             },
             "sms:displayName": "mirnaArray",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2770,11 +2612,6 @@
             },
             "sms:displayName": "bisulfiteSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2792,11 +2629,6 @@
             },
             "sms:displayName": "ATACSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2814,11 +2646,6 @@
             },
             "sms:displayName": "HI-C",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2836,11 +2663,6 @@
             },
             "sms:displayName": "errBisulfiteSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2858,11 +2680,6 @@
             },
             "sms:displayName": "ISOSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2897,11 +2714,6 @@
             },
             "sms:displayName": "westernBlot",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -2919,32 +2731,6 @@
             },
             "sms:displayName": "wholeGenomeSeq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3030,32 +2816,6 @@
             },
             "sms:displayName": "tractionForceMicroscopy",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadPairOrientation"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:LibraryPrep"
-                },
-                {
-                    "@id": "bts:NucleicAcidSource"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3107,11 +2867,6 @@
             },
             "sms:displayName": "MIB/MS",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3146,11 +2901,6 @@
             },
             "sms:displayName": "MudPIT",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:Platform"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3321,11 +3071,6 @@
             },
             "sms:displayName": "oxBS-Seq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3343,11 +3088,6 @@
             },
             "sms:displayName": "Ribo-Seq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:AssayTarget"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -3880,53 +3620,6 @@
             },
             "sms:displayName": "ATACseq",
             "sms:required": "sms:false",
-            "sms:requiresDependency": [
-                {
-                    "@id": "bts:SpecimenID"
-                },
-                {
-                    "@id": "bts:LibraryID"
-                },
-                {
-                    "@id": "bts:Platform"
-                },
-                {
-                    "@id": "bts:ReferenceSet"
-                },
-                {
-                    "@id": "bts:TransposaseBatch"
-                },
-                {
-                    "@id": "bts:LibraryBatch"
-                },
-                {
-                    "@id": "bts:LibraryPreparationMethod"
-                },
-                {
-                    "@id": "bts:PcrCycles"
-                },
-                {
-                    "@id": "bts:SequencingBatch"
-                },
-                {
-                    "@id": "bts:IsStranded"
-                },
-                {
-                    "@id": "bts:ReadStrandOrigin"
-                },
-                {
-                    "@id": "bts:ReadLength"
-                },
-                {
-                    "@id": "bts:RunType"
-                },
-                {
-                    "@id": "bts:MeanCoverage"
-                },
-                {
-                    "@id": "bts:MeanGCContent"
-                }
-            ],
             "sms:validationRules": []
         },
         {
@@ -6110,7 +5803,7 @@
                 }
             ],
             "sms:displayName": "metadataType",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6132,7 +5825,7 @@
                 }
             ],
             "sms:displayName": "bodyPart",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6202,7 +5895,7 @@
                 }
             ],
             "sms:displayName": "organ",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6284,7 +5977,7 @@
                 }
             ],
             "sms:displayName": "dataType",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6301,7 +5994,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "individualIdSource",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6362,16 +6055,22 @@
                 },
                 {
                     "@id": "bts:BuffyCoat"
+                },
+                {
+                    "@id": "bts:Cerebralcortex"
+                },
+                {
+                    "@id": "bts:Sciaticnerve"
                 }
             ],
             "sms:displayName": "tissue",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
             "@id": "bts:Platform",
             "@type": "rdfs:Class",
-            "rdfs:comment": "HiSeq3000, HiSeq2500, HiSeq4000, NextSeq500, HiSeq2000, MiSeq, Zeiss LSM 980, Affy5.0, Affy6.0, PacBioRSII, GAIIx, Illumina_HumanOmni1-Quadv1.0, Illumina_1M, Illumina_h650, Illumina_Omni2pt5M, Illumina_Omni5M, Illumina MouseWG-6 v2.0 expression beadchip, Perlegen300Karray, Agilent44Karray, IlluminaWholeGenomeDASL, IlluminaHumanHap300, NanostringnCounter, LTQOrbitrapXL, IlluminaHumanMethylation450, Illumina Infinium MethylationEPIC BeadChip, AffymetrixU133AB, Affymetrix Human Gene 1.0 ST Array, AffymetrixU133Plus2, HiSeqX, Bionano Irys, Infinium HumanOmniExpressExome, NextSeq 550, NextSeq 1000, NextSeq 2000, PacBio Sequel IIe System, PacBio Sequel II System, NanostringGeoMx",
+            "rdfs:comment": "HiSeq3000, HiSeq2500, HiSeq4000, NextSeq500, HiSeq2000, MiSeq, Zeiss LSM 980, Affy5.0, Affy6.0, PacBioRSII, GAIIx, Illumina_HumanOmni1-Quadv1.0, Illumina_1M, Illumina_h650, Illumina_Omni2pt5M, Illumina_Omni5M, Illumina MouseWG-6 v2.0 expression beadchip, Perlegen300Karray, Agilent44Karray, IlluminaWholeGenomeDASL, IlluminaHumanHap300, NanostringnCounter, LTQOrbitrapXL, IlluminaHumanMethylation450, Illumina Infinium MethylationEPIC BeadChip, AffymetrixU133AB, Affymetrix Human Gene 1.0 ST Array, AffymetrixU133Plus2, HiSeqX, Bionano Irys, Infinium HumanOmniExpressExome, NextSeq 550, NextSeq 1000, NextSeq 2000, PacBio Sequel IIe System, PacBio Sequel II System, NanostringGeoMx, LI-COR Odyssey CLx, Spectramax M Series",
             "rdfs:label": "Platform",
             "rdfs:subClassOf": [
                 {
@@ -6495,10 +6194,16 @@
                 },
                 {
                     "@id": "bts:NanostringGeoMx"
+                },
+                {
+                    "@id": "bts:LI-COROdysseyCLx"
+                },
+                {
+                    "@id": "bts:SpectramaxMSeries"
                 }
             ],
             "sms:displayName": "platform",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6548,7 +6253,7 @@
                 }
             ],
             "sms:displayName": "isPrimaryCell",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6666,7 +6371,7 @@
                 }
             ],
             "sms:displayName": "cellType",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6772,7 +6477,7 @@
                 }
             ],
             "sms:displayName": "sex",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6815,7 +6520,7 @@
                 }
             ],
             "sms:displayName": "species",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -8920,7 +8625,13 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:C57BL6J"
+                    "@id": "bts:C57BL/6J"
+                },
+                {
+                    "@id": "bts:Ipn02.32λ"
+                },
+                {
+                    "@id": "bts:IpNF95.11bC"
                 }
             ],
             "sms:displayName": "modelSystemName",
@@ -9114,6 +8825,9 @@
                     "@id": "bts:SpecimenID"
                 },
                 {
+                    "@id": "bts:Organ"
+                },
+                {
                     "@id": "bts:Tissue"
                 },
                 {
@@ -9214,6 +8928,9 @@
                     "@id": "bts:SpecimenID"
                 },
                 {
+                    "@id": "bts:Organ"
+                },
+                {
                     "@id": "bts:Tissue"
                 },
                 {
@@ -9260,23 +8977,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Filename",
-            "sms:required": "sms:true",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IndividualID",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A unique identifier (non-PII) that represents the individual (subject) from which the data came. This could be a patient or animal ID. ",
-            "rdfs:label": "IndividualID",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:NF"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "individualID",
             "sms:required": "sms:true",
             "sms:validationRules": []
         },
@@ -9343,6 +9043,9 @@
                 },
                 {
                     "@id": "bts:SpecimenID"
+                },
+                {
+                    "@id": "bts:Organ"
                 },
                 {
                     "@id": "bts:Tissue"
@@ -9445,6 +9148,9 @@
                     "@id": "bts:SpecimenID"
                 },
                 {
+                    "@id": "bts:Organ"
+                },
+                {
                     "@id": "bts:Tissue"
                 },
                 {
@@ -9542,6 +9248,9 @@
                     "@id": "bts:ProteinExtractSource"
                 },
                 {
+                    "@id": "bts:Organ"
+                },
+                {
                     "@id": "bts:Tissue"
                 },
                 {
@@ -9631,6 +9340,9 @@
                 },
                 {
                     "@id": "bts:Diagnosis"
+                },
+                {
+                    "@id": "bts:Organ"
                 },
                 {
                     "@id": "bts:Tissue"
@@ -10477,6 +10189,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "nose",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpectramaxMSeries",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A Spectramax M Series Microplate Reader",
+            "rdfs:label": "SpectramaxMSeries",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Spectramax M Series",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LI-COROdysseyCLx",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A LI-COR Odyssey CLx imaging system",
+            "rdfs:label": "LI-COROdysseyCLx",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Platform"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "LI-COR Odyssey CLx",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -11505,7 +11251,7 @@
         {
             "@id": "bts:ExperimentalCondition",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin).",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
             "rdfs:label": "ExperimentalCondition",
             "rdfs:subClassOf": [
                 {
@@ -12372,6 +12118,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Cerebralcortex",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The outer layer of the cerebrum composed of neurons and unmyelinated nerve fibers. It is responsible for memory, attention, consciousness and other higher levels of mental function.",
+            "rdfs:label": "Cerebralcortex",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "cerebral cortex",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Sciaticnerve",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The longest single nerve that is formed by the merging of the ventral rami of the L4, L5, and S1 in the pelvis and passes down the lower limb where it divides into the common peroneal and tibial nerves",
+            "rdfs:label": "Sciaticnerve",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Tissue"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sciatic nerve",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Unspecified",
             "@type": "rdfs:Class",
             "rdfs:comment": "Unspecified tissue or tissues from an organ.",
@@ -13087,7 +12867,7 @@
         {
             "@id": "bts:ReportMilestone",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Indicates which milestone report you're annotating data files for. Currently only required for projects funded by NTAP, GFF, and NFRI. An example: if submitting a 6-month milestone report for NTAP, reportMilestone=1.",
+            "rdfs:comment": "Indicates which milestone report you're annotating data files for. Currently only required for projects funded by NTAP, GFF, and NFRI. An example: if submitting a 6-month milestone report for NTAP, reportMilestone=1.  ",
             "rdfs:label": "ReportMilestone",
             "rdfs:subClassOf": [
                 {
@@ -13221,10 +13001,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:C57BL6J",
+            "@id": "bts:Ipn02.32λ",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
-            "rdfs:label": "C57BL6J",
+            "rdfs:label": "Ipn02.32λ",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ModelSystemName"
@@ -13233,7 +13013,24 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "C57BL6J",
+            "sms:displayName": "ipn02.3 2λ",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IpNF95.11bC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IpNF95.11bC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ModelSystemName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ipNF95.11b C",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
