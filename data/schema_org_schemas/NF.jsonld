@@ -6697,7 +6697,7 @@
                 }
             ],
             "sms:displayName": "diagnosis",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6857,7 +6857,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "individualID",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6874,7 +6874,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "specimenID",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -6908,7 +6908,7 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "assayTarget",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -8908,7 +8908,7 @@
         {
             "@id": "bts:ModelSystemName",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A group of presumed common ancestry with clear-cut physiological but usually not morphological distinctions. EXAMPLE(S): The specific genotypic or phenotypic variant of an animal. Minnesota5 (swine strain), DXL (poultry strain), RB51 (vaccine strain of Brucella abortus)",
+            "rdfs:comment": "A group of presumed common ancestry with clear-cut physiological but usually not morphological distinctions such as an animal model or cell line. EXAMPLE(S):  HEK293T (cell line), Minnesota5 (swine strain), DXL (poultry strain), RB51 (vaccine strain of Brucella abortus)",
             "rdfs:label": "ModelSystemName",
             "rdfs:subClassOf": [
                 {
@@ -8924,7 +8924,7 @@
                 }
             ],
             "sms:displayName": "modelSystemName",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -8982,7 +8982,7 @@
                 }
             ],
             "sms:displayName": "modelSystemStrainNomenclature",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": [
                 "list"
             ]
@@ -9015,7 +9015,7 @@
                 }
             ],
             "sms:displayName": "nf2Genotype",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9046,7 +9046,7 @@
                 }
             ],
             "sms:displayName": "nf1Genotype",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9829,7 +9829,7 @@
                 }
             ],
             "sms:displayName": "runType",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9854,7 +9854,7 @@
                 }
             ],
             "sms:displayName": "readPair",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9879,7 +9879,7 @@
                 }
             ],
             "sms:displayName": "isStranded",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9907,7 +9907,7 @@
                 }
             ],
             "sms:displayName": "readPairOrientation",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9932,7 +9932,7 @@
                 }
             ],
             "sms:displayName": "readStrandOrigin",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -9963,7 +9963,7 @@
                 }
             ],
             "sms:displayName": "libraryPrep",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -10003,7 +10003,7 @@
                 }
             ],
             "sms:displayName": "libraryPreparationMethod",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -10037,7 +10037,7 @@
                 }
             ],
             "sms:displayName": "nucleicAcidSource",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -10086,7 +10086,7 @@
                 }
             ],
             "sms:displayName": "dissociationMethod",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -11505,7 +11505,7 @@
         {
             "@id": "bts:ExperimentalCondition",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin).",
             "rdfs:label": "ExperimentalCondition",
             "rdfs:subClassOf": [
                 {
@@ -13085,6 +13085,40 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:ReportMilestone",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Indicates which milestone report you're annotating data files for. Currently only required for projects funded by NTAP, GFF, and NFRI. An example: if submitting a 6-month milestone report for NTAP, reportMilestone=1.",
+            "rdfs:label": "ReportMilestone",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:1"
+                },
+                {
+                    "@id": "bts:2"
+                },
+                {
+                    "@id": "bts:3"
+                },
+                {
+                    "@id": "bts:4"
+                },
+                {
+                    "@id": "bts:5"
+                }
+            ],
+            "sms:displayName": "reportMilestone",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Cellcounts",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -13319,6 +13353,57 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "transplantationRecipientTissue",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:3",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "3",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReportMilestone"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "3",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:4",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "4",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReportMilestone"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "4",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:5",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "5",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ReportMilestone"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "5",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
