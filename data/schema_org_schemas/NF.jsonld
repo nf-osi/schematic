@@ -8772,7 +8772,12 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "genomicsAssay",
-            "sms:required": "sms:true",
+            "sms:required": "sms:false",
+            "sms:requiresComponent": [
+                {
+                    "@id": "bts:Ngs"
+                }
+            ],
             "sms:requiresDependency": [
                 {
                     "@id": "bts:Filename"
@@ -8839,9 +8844,6 @@
                 },
                 {
                     "@id": "bts:TumorType"
-                },
-                {
-                    "@id": "bts:AssayTarget"
                 },
                 {
                     "@id": "bts:ExperimentalCondition"
@@ -9679,7 +9681,7 @@
         {
             "@id": "bts:LibraryPreparationMethod",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Method by which library was prepared",
+            "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
             "rdfs:label": "LibraryPreparationMethod",
             "rdfs:subClassOf": [
                 {
@@ -9710,26 +9712,7 @@
                 },
                 {
                     "@id": "bts:Omni-ATAC"
-                }
-            ],
-            "sms:displayName": "libraryPreparationMethod",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:NucleicAcidSource",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
-            "rdfs:label": "NucleicAcidSource",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Ngs"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "schema:rangeIncludes": [
+                },
                 {
                     "@id": "bts:Bulkcell"
                 },
@@ -9746,7 +9729,24 @@
                     "@id": "bts:Mitochondria"
                 }
             ],
-            "sms:displayName": "nucleicAcidSource",
+            "sms:displayName": "libraryPreparationMethod",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:LibraryPreparationMethod",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
+            "rdfs:label": "LibraryPreparationMethod",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Ngs"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "libraryPreparationMethod",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -12848,7 +12848,7 @@
         {
             "@id": "bts:Ngs",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
+            "rdfs:comment": "next gen sequencing/genomics attributes.",
             "rdfs:label": "Ngs",
             "rdfs:subClassOf": [
                 {
@@ -12858,6 +12858,38 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:RunType"
+                },
+                {
+                    "@id": "bts:ReadPair"
+                },
+                {
+                    "@id": "bts:IsStranded"
+                },
+                {
+                    "@id": "bts:ReadPairOrientation"
+                },
+                {
+                    "@id": "bts:ReadStrandOrigin"
+                },
+                {
+                    "@id": "bts:LibraryPrep"
+                },
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                },
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                },
+                {
+                    "@id": "bts:DissociationMethod"
+                },
+                {
+                    "@id": "bts:ReadLength"
+                }
+            ],
             "sms:displayName": "ngs",
             "sms:required": "sms:false",
             "sms:validationRules": []
