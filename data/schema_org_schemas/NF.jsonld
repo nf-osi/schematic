@@ -8489,6 +8489,9 @@
                     "@id": "bts:Filename"
                 },
                 {
+                    "@id": "bts:ReportMilestone"
+                },
+                {
                     "@id": "bts:FileFormat"
                 },
                 {
@@ -8616,6 +8619,9 @@
                     "@id": "bts:Filename"
                 },
                 {
+                    "@id": "bts:ReportMilestone"
+                },
+                {
                     "@id": "bts:FileFormat"
                 },
                 {
@@ -8733,6 +8739,9 @@
                     "@id": "bts:Filename"
                 },
                 {
+                    "@id": "bts:ReportMilestone"
+                },
+                {
                     "@id": "bts:FileFormat"
                 },
                 {
@@ -8836,6 +8845,9 @@
                     "@id": "bts:Filename"
                 },
                 {
+                    "@id": "bts:ReportMilestone"
+                },
+                {
                     "@id": "bts:FileFormat"
                 },
                 {
@@ -8931,6 +8943,9 @@
             "sms:requiresDependency": [
                 {
                     "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:ReportMilestone"
                 },
                 {
                     "@id": "bts:FileFormat"
@@ -9031,6 +9046,9 @@
             "sms:requiresDependency": [
                 {
                     "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:ReportMilestone"
                 },
                 {
                     "@id": "bts:FileFormat"
@@ -12684,6 +12702,9 @@
             "sms:requiresDependency": [
                 {
                     "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:ReportMilestone"
                 },
                 {
                     "@id": "bts:FileFormat"
