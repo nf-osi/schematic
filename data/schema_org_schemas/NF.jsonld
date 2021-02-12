@@ -8858,6 +8858,33 @@
                     "@id": "bts:Platform"
                 },
                 {
+                    "@id": "bts:RunType"
+                },
+                {
+                    "@id": "bts:ReadPair"
+                },
+                {
+                    "@id": "bts:IsStranded"
+                },
+                {
+                    "@id": "bts:ReadPairOrientation"
+                },
+                {
+                    "@id": "bts:ReadStrandOrigin"
+                },
+                {
+                    "@id": "bts:LibraryPrep"
+                },
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                },
+                {
+                    "@id": "bts:DissociationMethod"
+                },
+                {
+                    "@id": "bts:ReadLength"
+                },
+                {
                     "@id": "bts:ReadDepth"
                 }
             ],
@@ -9681,7 +9708,7 @@
         {
             "@id": "bts:LibraryPreparationMethod",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
+            "rdfs:comment": "Method by which library was prepared",
             "rdfs:label": "LibraryPreparationMethod",
             "rdfs:subClassOf": [
                 {
@@ -9712,7 +9739,26 @@
                 },
                 {
                     "@id": "bts:Omni-ATAC"
-                },
+                }
+            ],
+            "sms:displayName": "libraryPreparationMethod",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NucleicAcidSource",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
+            "rdfs:label": "NucleicAcidSource",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Ngs"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
                 {
                     "@id": "bts:Bulkcell"
                 },
@@ -9729,24 +9775,7 @@
                     "@id": "bts:Mitochondria"
                 }
             ],
-            "sms:displayName": "libraryPreparationMethod",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:LibraryPreparationMethod",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Source of the extracted nucleic acid used in the experiment",
-            "rdfs:label": "LibraryPreparationMethod",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Ngs"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "libraryPreparationMethod",
+            "sms:displayName": "nucleicAcidSource",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
