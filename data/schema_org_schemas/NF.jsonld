@@ -8694,9 +8694,7 @@
             ],
             "sms:displayName": "modelSystemStrainNomenclature",
             "sms:required": "sms:false",
-            "sms:validationRules": [
-                "list"
-            ]
+            "sms:validationRules": []
         },
         {
             "@id": "bts:Nf2Genotype",
