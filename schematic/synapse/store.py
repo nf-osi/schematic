@@ -174,7 +174,7 @@ class SynapseStorage(object):
             foldersTable = self.storageFileviewTable[(self.storageFileviewTable["contentType"] == "dataset") & (self.storageFileviewTable["projectId"] == projectId)]
             areDatasets = True
         else:
-            foldersTable = self.storageFileviewTable[(self.storageFileviewTable["type"] == "folder") & (self.storageFileviewTable["projectId"] == projectId)]
+            foldersTable = self.storageFileviewTable[(self.storageFileviewTable["type"] == "folder") & (self.storageFileviewTable["parentId"] == projectId)]
 
         # get an array of tuples (folderId, folderName)
         # some folders are part of datasets; others contain datasets
@@ -186,11 +186,7 @@ class SynapseStorage(object):
         datasetList = []
         folderProperties = ["id", "name"]
         for folder in list(foldersTable[folderProperties].itertuples(index = False, name = None)):
-            try:
-                if self.syn.get(folder[0], downloadFile = False).properties["parentId"] == projectId or areDatasets:
-                    datasetList.append(folder)
-            except ValueError:
-                print("The project id {} was not found.".format(projectId))
+            datasetList.append(folder)
 
         sorted_dataset_list = sorted(datasetList, key=lambda tup: tup[0])
 
@@ -360,7 +356,7 @@ class SynapseStorage(object):
         return df, results
 
 
-    def associateMetadataWithFiles(self, metadataManifestPath: str, datasetId: str) -> str:
+    def associateMetadataWithFiles(self, metadataManifestPath: str, datasetId: str, useSchemaLabel:bool=True) -> str:
         """Associate metadata with files in a storage dataset already on Synapse. 
         Upload metadataManifest in the storage dataset folder on Synapse as well. Return synapseId of the uploaded manifest file.
         
@@ -369,8 +365,9 @@ class SynapseStorage(object):
             The manifest should include a column entityId containing synapse IDs of files/entities to be associated with metadata, if that is applicable to the dataset type. 
             Some datasets, e.g. clinical data, do not contain file id's, but data is stored in a table: one row per item. 
             In this case, the system creates a file on Synapse for each row in the table (e.g. patient, biospecimen) and associates the columnset data as metadata/annotations to his file. 
-                
             datasetId: synapse ID of folder containing the dataset
+            useSchemaLabel: Default is True - use the schema label. If False, uses the display label from the schema. Attribute display names in the schema must not include characters that are not accepted by Synapse. Annotation names may only contain: letters, numbers, '_' and '.'.
+
             
         Returns: synapse Id of the uploaded manifest.
         
@@ -438,7 +435,10 @@ class SynapseStorage(object):
             #  prepare metadata for Synapse storage (resolve display name into a name that Synapse annotations support (e.g no spaces)
             metadataSyn = {}
             for k, v in row.to_dict().items():
-                keySyn = se.get_class_label_from_display_name(str(k))
+                if useSchemaLabel:
+                    keySyn = se.get_class_label_from_display_name(str(k))
+                else:
+                    keySyn = str(k)
 
                 metadataSyn[keySyn] = v
 
