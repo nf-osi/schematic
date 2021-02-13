@@ -8317,10 +8317,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Prss56Cre-R26mT",
+            "@id": "bts:Prss56Cre;R26mT",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Prss56Cre;R26mT is a transgenic non-human animal model for Neurofibromatosis type 1, wherein the Nf1 gene is specifically inactivated in BC cells and derivatives thereof. Invented by invented by Piotr Topilko, Patrick Charnay, Fanny Coulpier, Aurélie Gresset, and Katarzyna Radomska.",
-            "rdfs:label": "Prss56Cre-R26mT",
+            "rdfs:comment": "Prss56Cre;R26mT is a transgenic non-human animal model for Neurofibromatosis type 1, wherein the Nf1 gene is specifically inactivated in BC cells and derivatives thereof. Invented by invented by Piotr Topilko, Patrick Charnay, Fanny Coulpier, Aurélie Gresset, and Katarzyna Radomska.\n",
+            "rdfs:label": "Prss56Cre;R26mT",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:ModelSystemStrainNomenclature"
@@ -8329,7 +8329,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Prss56Cre-R26mT",
+            "sms:displayName": "Prss56Cre;R26mT",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -8415,7 +8415,7 @@
                     "@id": "bts:Nf1-OPG-Arg816"
                 },
                 {
-                    "@id": "bts:Prss56Cre-R26mT"
+                    "@id": "bts:Prss56Cre;R26mT"
                 }
             ],
             "sms:displayName": "modelSystemStrainNomenclature",
@@ -11022,7 +11022,7 @@
         {
             "@id": "bts:ExperimentalCondition",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin).",
+            "rdfs:comment": "A free-text description of the experimental condition (e.g. 5 mM doxorubicin). ",
             "rdfs:label": "ExperimentalCondition",
             "rdfs:subClassOf": [
                 {
@@ -12670,7 +12670,7 @@
         {
             "@id": "bts:ReportMilestone",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Indicates which milestone report you're annotating data files for. Currently only required for projects funded by NTAP, GFF, and NFRI. An example: if submitting a 6-month milestone report for NTAP, reportMilestone=1.",
+            "rdfs:comment": "Indicates which milestone report you're annotating data files for. Currently only required for projects funded by NTAP, GFF, and NFRI. An example: if submitting a 6-month milestone report for NTAP, reportMilestone=1.  ",
             "rdfs:label": "ReportMilestone",
             "rdfs:subClassOf": [
                 {
