@@ -12960,7 +12960,7 @@
             "rdfs:label": "SpecimenPreparationMethod",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Assay"
+                    "@id": "bts:Ngs"
                 }
             ],
             "schema:isPartOf": {
@@ -13028,6 +13028,14 @@
             },
             "sms:displayName": "updateMilestoneReport",
             "sms:required": "sms:true",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:Filename"
+                },
+                {
+                    "@id": "bts:ReportMilestone"
+                }
+            ],
             "sms:validationRules": []
         },
         {
