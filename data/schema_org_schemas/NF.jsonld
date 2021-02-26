@@ -5428,7 +5428,7 @@
                     "@id": "bts:Labelfreemassspectrometry"
                 },
                 {
-                    "@id": "bts:Cellcounts"
+                    "@id": "bts:Cellcount"
                 },
                 {
                     "@id": "bts:Reportergeneassay"
@@ -8548,7 +8548,7 @@
             "rdfs:label": "GenomicsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
@@ -8686,7 +8686,7 @@
             "rdfs:label": "ImagingAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
@@ -8806,7 +8806,7 @@
             "rdfs:label": "EpigeneticsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
@@ -8912,7 +8912,7 @@
             "rdfs:label": "PharmacokineticsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
@@ -9012,7 +9012,7 @@
             "rdfs:label": "ProteomicsAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
@@ -9115,7 +9115,7 @@
             "rdfs:label": "PlateBasedReporterAssay",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
@@ -13014,19 +13014,36 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Cellcounts",
+            "@id": "bts:UpdateMilestoneReport",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Cellcounts",
+            "rdfs:comment": "Defines a metadata template for updating milestone report values in NF studies -- currently a supported feature for NTAP and GFF.",
+            "rdfs:label": "UpdateMilestoneReport",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Assay"
+                    "@id": "bts:Template"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "cell counts",
+            "sms:displayName": "updateMilestoneReport",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Template",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Parent attribute for the manifest template attributes. ",
+            "rdfs:label": "Template",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "schema:Thing"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "template",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
