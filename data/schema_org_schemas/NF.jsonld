@@ -5432,6 +5432,9 @@
                 },
                 {
                     "@id": "bts:Reportergeneassay"
+                },
+                {
+                    "@id": "bts:SingleCellRNASequencing"
                 }
             ],
             "sms:displayName": "assay",
@@ -8320,6 +8323,57 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:NODscidgamma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "These mice are most often referred to using their branded name \"NSG™\" and are extremely immunodeficient.",
+            "rdfs:label": "NODscidgamma",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ModelSystemName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NOD scid gamma",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ipn02.32λ",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Ipn02.32λ",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ModelSystemName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ipn02.3 2λ",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:IpNF95.11bC",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "IpNF95.11bC",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ModelSystemName"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ipNF95.11b C",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Prss56Cre;R26mT",
             "@type": "rdfs:Class",
             "rdfs:comment": "Prss56Cre;R26mT is a transgenic non-human animal model for Neurofibromatosis type 1, wherein the Nf1 gene is specifically inactivated in BC cells and derivatives thereof. Invented by invented by Piotr Topilko, Patrick Charnay, Fanny Coulpier, Aurélie Gresset, and Katarzyna Radomska.\n",
@@ -8576,6 +8630,9 @@
                 },
                 {
                     "@id": "bts:TumorType"
+                },
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
                 },
                 {
                     "@id": "bts:ExperimentalCondition"
@@ -12849,6 +12906,9 @@
                     "@id": "bts:TumorType"
                 },
                 {
+                    "@id": "bts:SpecimenPreparationMethod"
+                },
+                {
                     "@id": "bts:ExperimentalCondition"
                 },
                 {
@@ -12891,6 +12951,66 @@
                     "@id": "bts:ReadDepth"
                 }
             ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SpecimenPreparationMethod",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Term that represents the method used to preserve the sample before preparing the sample for seqencing",
+            "rdfs:label": "SpecimenPreparationMethod",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Assay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "schema:rangeIncludes": [
+                {
+                    "@id": "bts:Freshcollected"
+                },
+                {
+                    "@id": "bts:Flashfrozen"
+                },
+                {
+                    "@id": "bts:FFPE"
+                },
+                {
+                    "@id": "bts:Cryopreserved"
+                },
+                {
+                    "@id": "bts:OCT"
+                },
+                {
+                    "@id": "bts:RNAlater"
+                },
+                {
+                    "@id": "bts:Formalin-fixed"
+                },
+                {
+                    "@id": "bts:Ethanol"
+                }
+            ],
+            "sms:displayName": "specimenPreparationMethod",
+            "sms:required": "sms:true",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:SingleCellRNASequencing",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A procedure that can determine the nucleotide sequence for all of the RNA transcripts in an amplified nucleotide sample that was derived from a single cell.",
+            "rdfs:label": "SingleCellRNASequencing",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Assay"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Single Cell RNA Sequencing",
+            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
@@ -12992,40 +13112,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "ChIPseq",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:Ipn02.32λ",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Ipn02.32λ",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ModelSystemName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "ipn02.3 2λ",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IpNF95.11bC",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IpNF95.11bC",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:ModelSystemName"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "ipNF95.11b C",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -13213,6 +13299,142 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "6",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Freshcollected",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Freshcollected",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Fresh collected",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Flashfrozen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Flashfrozen",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Flash frozen",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:FFPE",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "FFPE",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "FFPE",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Cryopreserved",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Cryopreserved",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Cryopreserved",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:OCT",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "OCT",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "OCT",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:RNAlater",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "RNAlater",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "RNAlater",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Formalin-fixed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Formalin-fixed",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "formalin-fixed",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Ethanol",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Ethanol",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:SpecimenPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ethanol",
             "sms:required": "sms:false",
             "sms:validationRules": []
         }
