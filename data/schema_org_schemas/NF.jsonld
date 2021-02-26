@@ -13039,6 +13039,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:NFTemplate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A parent class for all NF metadata templates.",
+            "rdfs:label": "NFTemplate",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:NF"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NFTemplate",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:ConfocalImaging",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
