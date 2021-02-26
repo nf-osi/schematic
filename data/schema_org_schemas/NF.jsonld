@@ -13045,7 +13045,7 @@
             "rdfs:label": "NFTemplate",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:NF"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
