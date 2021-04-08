@@ -2474,10 +2474,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:ExomeSeq",
+            "@id": "bts:WholeExomeSequencing",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Data derived from exome sequencing",
-            "rdfs:label": "ExomeSeq",
+            "rdfs:comment": "A procedure that can determine the DNA sequence for all of the exons in an individual. ",
+            "rdfs:label": "WholeExomeSequencing",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Assay"
@@ -2486,7 +2486,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "exomeSeq",
+            "sms:displayName": "Whole Exome Sequencing",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -3269,23 +3269,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "label free mass spectrometry",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ATAC-seq",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Default ATAC-seq assay for epigenomics with requirements from PsychENCODE",
-            "rdfs:label": "ATAC-seq",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Assay"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "ATAC-seq",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -4892,10 +4875,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Neurofibromatosis1",
+            "@id": "bts:Neurofibromatosistype1",
             "@type": "rdfs:Class",
             "rdfs:comment": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
-            "rdfs:label": "Neurofibromatosis1",
+            "rdfs:label": "Neurofibromatosistype1",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Diagnosis"
@@ -4904,15 +4887,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Neurofibromatosis 1",
+            "sms:displayName": "Neurofibromatosis type 1",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Neurofibromatosis2",
+            "@id": "bts:Neurofibromatosistype2",
             "@type": "rdfs:Class",
             "rdfs:comment": "(NF2) - Genetic disorder characterized by bilateral vestibular schwannomas (formerly called acoustic neuromas), schwannomas of other cranial and peripheral nerves, meningiomas, and ependymomas. It is inherited in an autosomal dominant fashion with full penetrance.",
-            "rdfs:label": "Neurofibromatosis2",
+            "rdfs:label": "Neurofibromatosistype2",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Diagnosis"
@@ -4921,7 +4904,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Neurofibromatosis 2",
+            "sms:displayName": "Neurofibromatosis type 2",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -5287,7 +5270,7 @@
                     "@id": "bts:LncrnaSeq"
                 },
                 {
-                    "@id": "bts:ExomeSeq"
+                    "@id": "bts:WholeExomeSequencing"
                 },
                 {
                     "@id": "bts:Sangersequencing"
@@ -5918,7 +5901,7 @@
         {
             "@id": "bts:IsCellLine",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Boolean flag indicating whether or not sample source is a cell line",
+            "rdfs:comment": "Boolean flag indicating whether or not sample source is a cell line. (Note: TRUE = Yes; FALSE = No)",
             "rdfs:label": "IsCellLine",
             "rdfs:subClassOf": [
                 {
@@ -5930,10 +5913,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "isCellLine",
@@ -6098,10 +6081,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Neurofibromatosis1"
+                    "@id": "bts:Neurofibromatosistype1"
                 },
                 {
-                    "@id": "bts:Neurofibromatosis2"
+                    "@id": "bts:Neurofibromatosistype2"
                 },
                 {
                     "@id": "bts:Schwannomatosis"
@@ -6204,13 +6187,16 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Human"
+                    "@id": "bts:Homosapiens"
                 },
                 {
-                    "@id": "bts:Mouse"
+                    "@id": "bts:Musmusculus"
                 },
                 {
-                    "@id": "bts:Rat"
+                    "@id": "bts:Musmusculus(humanized)"
+                },
+                {
+                    "@id": "bts:Rattusnorvegicus"
                 },
                 {
                     "@id": "bts:Drosophilamelanogaster"
@@ -11487,10 +11473,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Human",
+            "@id": "bts:Homosapiens",
             "@type": "rdfs:Class",
             "rdfs:comment": "Homo sapiens with taxonomy ID: 9606 and Genbank common name: human",
-            "rdfs:label": "Human",
+            "rdfs:label": "Homosapiens",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Species"
@@ -11499,15 +11485,15 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Human",
+            "sms:displayName": "Homo sapiens",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Mouse",
+            "@id": "bts:Musmusculus",
             "@type": "rdfs:Class",
             "rdfs:comment": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse",
-            "rdfs:label": "Mouse",
+            "rdfs:label": "Musmusculus",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Species"
@@ -11516,7 +11502,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Mouse",
+            "sms:displayName": "Mus musculus",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
@@ -11529,10 +11515,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Rat",
+            "@id": "bts:Musmusculus(humanized)",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Rattus with taxonomy ID: 10114 and inherited blast name: rodents",
-            "rdfs:label": "Rat",
+            "rdfs:comment": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse",
+            "rdfs:label": "Musmusculus(humanized)",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:Species"
@@ -11541,7 +11527,32 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "Rat",
+            "sms:displayName": "Mus musculus (humanized)",
+            "sms:required": "sms:false",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Rattusnorvegicus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Rattus with taxonomy ID:10116 and Genbank common name: Norway rat",
+            "rdfs:label": "Rattusnorvegicus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Species"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Rattus norvegicus",
             "sms:required": "sms:false",
             "sms:requiresDependency": [
                 {
@@ -13073,13 +13084,47 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:TRUE",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "TRUE",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IsCellLine"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "TRUE",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:FALSE",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "FALSE",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:IsCellLine"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "FALSE",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Yes",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
             "rdfs:label": "Yes",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:IsCellLine"
+                    "@id": "bts:IsPrimaryCell"
                 }
             ],
             "schema:isPartOf": {
@@ -13096,7 +13141,7 @@
             "rdfs:label": "No",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:IsCellLine"
+                    "@id": "bts:IsPrimaryCell"
                 }
             ],
             "schema:isPartOf": {
@@ -13137,6 +13182,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "ChIPseq",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ATAC-seq",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "ATAC-seq",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:ImmunoAssayType"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "ATAC-seq",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
