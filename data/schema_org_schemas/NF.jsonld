@@ -5926,7 +5926,7 @@
         {
             "@id": "bts:IsPrimaryCell",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Boolean flag indicating whether or not cellType is primary",
+            "rdfs:comment": "Boolean flag indicating whether or not cellType is primary  (Note: TRUE = Yes; FALSE = No)",
             "rdfs:label": "IsPrimaryCell",
             "rdfs:subClassOf": [
                 {
@@ -5938,10 +5938,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "isPrimaryCell",
@@ -6100,7 +6100,7 @@
         {
             "@id": "bts:IsMultiIndividual",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Boolean flag indicating whether or not a file has data for multiple individuals",
+            "rdfs:comment": "Boolean flag indicating whether or not a file has data for multiple individuals  (Note: TRUE = Yes; FALSE = No)",
             "rdfs:label": "IsMultiIndividual",
             "rdfs:subClassOf": [
                 {
@@ -6112,10 +6112,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "isMultiIndividual",
@@ -6125,7 +6125,7 @@
         {
             "@id": "bts:IsMultiSpecimen",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Boolean flag indicating whether or not a file has data for multiple specimens",
+            "rdfs:comment": "Boolean flag indicating whether or not a file has data for multiple specimens  (Note: TRUE = Yes; FALSE = No)",
             "rdfs:label": "IsMultiSpecimen",
             "rdfs:subClassOf": [
                 {
@@ -6137,10 +6137,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "isMultiSpecimen",
@@ -6215,6 +6215,9 @@
                 },
                 {
                     "@id": "bts:Oryctolaguscuniculus"
+                },
+                {
+                    "@id": "bts:Daniorerio"
                 }
             ],
             "sms:displayName": "species",
@@ -6224,7 +6227,7 @@
         {
             "@id": "bts:FailedQC",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Boolean flag indicating whether the sample or data failed QC checks",
+            "rdfs:comment": "Boolean flag indicating whether the sample or data failed QC checks (Note: TRUE = Yes; FALSE = No)",
             "rdfs:label": "FailedQC",
             "rdfs:subClassOf": [
                 {
@@ -6236,10 +6239,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "failedQC",
@@ -8419,10 +8422,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:True"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:False"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "isModelSystem",
@@ -8615,6 +8618,9 @@
                     "@id": "bts:IsCellLine"
                 },
                 {
+                    "@id": "bts:IsPrimaryCell"
+                },
+                {
                     "@id": "bts:TumorType"
                 },
                 {
@@ -8652,6 +8658,9 @@
                 },
                 {
                     "@id": "bts:LibraryPreparationMethod"
+                },
+                {
+                    "@id": "bts:NucleicAcidSource"
                 },
                 {
                     "@id": "bts:DissociationMethod"
@@ -8746,6 +8755,9 @@
                 },
                 {
                     "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:IsPrimaryCell"
                 },
                 {
                     "@id": "bts:TumorType"
@@ -8868,6 +8880,9 @@
                     "@id": "bts:IsCellLine"
                 },
                 {
+                    "@id": "bts:IsPrimaryCell"
+                },
+                {
                     "@id": "bts:TumorType"
                 },
                 {
@@ -8887,6 +8902,9 @@
                 },
                 {
                     "@id": "bts:ReadDepth"
+                },
+                {
+                    "@id": "bts:NucleicAcidSource"
                 }
             ],
             "sms:validationRules": []
@@ -8972,6 +8990,9 @@
                 },
                 {
                     "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:IsPrimaryCell"
                 },
                 {
                     "@id": "bts:TumorType"
@@ -9172,6 +9193,9 @@
                 },
                 {
                     "@id": "bts:IsCellLine"
+                },
+                {
+                    "@id": "bts:IsPrimaryCell"
                 },
                 {
                     "@id": "bts:TumorType"
@@ -9389,7 +9413,7 @@
         {
             "@id": "bts:IsStranded",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Whether or not the library is stranded.",
+            "rdfs:comment": "Whether or not the library is stranded. (Note: TRUE = Yes; FALSE = No)",
             "rdfs:label": "IsStranded",
             "rdfs:subClassOf": [
                 {
@@ -9401,10 +9425,10 @@
             },
             "schema:rangeIncludes": [
                 {
-                    "@id": "bts:Yes"
+                    "@id": "bts:TRUE"
                 },
                 {
-                    "@id": "bts:No"
+                    "@id": "bts:FALSE"
                 }
             ],
             "sms:displayName": "isStranded",
@@ -11691,6 +11715,31 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Daniorerio",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Danio rerio with taxonomy ID: 7955 and Genbank common name: zebrafish",
+            "rdfs:label": "Daniorerio",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:Species"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "Danio rerio",
+            "sms:required": "sms:false",
+            "sms:requiresDependency": [
+                {
+                    "@id": "bts:ModelSystemStrainNomenclature"
+                },
+                {
+                    "@id": "bts:ModelSystemName"
+                }
+            ],
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:Seconds",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -12782,6 +12831,9 @@
                 },
                 {
                     "@id": "bts:ReadLength"
+                },
+                {
+                    "@id": "bts:NucleicAcidSource"
                 }
             ],
             "sms:displayName": "ngs",
@@ -12956,6 +13008,9 @@
                     "@id": "bts:DissociationMethod"
                 },
                 {
+                    "@id": "bts:NucleicAcidSource"
+                },
+                {
                     "@id": "bts:ReadLength"
                 },
                 {
@@ -13118,40 +13173,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Yes",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Yes",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:IsPrimaryCell"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "Yes",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:No",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "No",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:IsPrimaryCell"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "No",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Nuclei",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -13199,40 +13220,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "ATAC-seq",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:True",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "True",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:IsModelSystem"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "True",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:False",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "False",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:IsModelSystem"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "False",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
