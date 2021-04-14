@@ -5045,23 +5045,6 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Bulk",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "Bulk",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DissociationMethod"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "bulk",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
             "@id": "bts:Enzymatic",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -5092,23 +5075,6 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "mechanical",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:None",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "None",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DissociationMethod"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "none",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -7845,6 +7811,23 @@
             "sms:validationRules": []
         },
         {
+            "@id": "bts:Sf",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Salmon’s main output is its quantification file. This file is a plain-text, tab-separated file with a single header line (which names all of the columns).",
+            "rdfs:label": "Sf",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:FileFormat"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "sf",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
             "@id": "bts:RNAi",
             "@type": "rdfs:Class",
             "rdfs:comment": "High throughput sample analysis of RNAi molecules for potential application in gene knockdown or gene silencing of target genes",
@@ -8189,6 +8172,23 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "Omni-ATAC",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:NEBNextmRNALibraryPrepReagentSetforIllumina",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "NEBNext mRNA Library Prep Reagent Set for Illumina",
+            "rdfs:label": "NEBNextmRNALibraryPrepReagentSetforIllumina",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:LibraryPreparationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "NEBNext mRNA Library Prep Reagent Set for Illumina",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
@@ -9553,6 +9553,9 @@
                 },
                 {
                     "@id": "bts:Omni-ATAC"
+                },
+                {
+                    "@id": "bts:NEBNextmRNALibraryPrepReagentSetforIllumina"
                 }
             ],
             "sms:displayName": "libraryPreparationMethod",
@@ -13288,6 +13291,40 @@
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "readDepth",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:Bulk",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "Bulk",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DissociationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "bulk",
+            "sms:required": "sms:false",
+            "sms:validationRules": []
+        },
+        {
+            "@id": "bts:None",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "TBD",
+            "rdfs:label": "None",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DissociationMethod"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "none",
             "sms:required": "sms:false",
             "sms:validationRules": []
         },
